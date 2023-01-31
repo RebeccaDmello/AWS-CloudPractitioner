@@ -1,0 +1,27 @@
+1. Cloud Computing (Pay only for what you use, Capacity, Economies of Scale, Speed and agility)
+- Access services on demand, avoid large upfront investments, provision computing resources as needed, pay for only what you use
+
+2. Cloud based deployment
+- Run all parts of app in the cloud, Migrate existing apps to the cloud, design/build new apps in the cloud
+
+3. On premises deployment
+- Use virtualization and resource management tools to deploy resources
+- Use app management and virtualization technologies to increase resource usage
+
+4. Hybrid deployment
+- Connect cloud-based resources to on-premises infra
+- Integrate cloud-based resources with legacy IT apps
+
+5. Cloud Computing benefits
+- Variable expenses
+- Capacity
+- Economies of scale
+- Speed and agility
+- Global in minutes
+
+6. Core services
+- Compute networking and content delivery
+- Storage
+- Database
+- Security, identity and compliance
+- Management and governance
