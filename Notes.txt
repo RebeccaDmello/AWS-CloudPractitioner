@@ -23,4 +23,19 @@
 5. Amazon simple queue service - send/store and receive message
 5. AWS Lambda - Run code without provisioning or managing servers, Pay only for compute time while code is running
 6. AWS container orchestration services - a. ECS (Run and scale containerized apps) b. EKS (Run and scale kubernetes apps) c. AWS Fargate (Run serverless containers with Amazon ECS or EKS)
+7. Cloud front - global content delivery service, Using a network of edge locations to cache and delivery to customers
 
+
+Regions and Availability Zones
+- VERY REGION HAS MIN OF 3 AZ, AZ ARE 10S OF MILES APART
+- Points of presence used by content delivery network, Point of presence is also known as edge location
+- Edge locations have caches that store temp data that will be used for customer request data
+- Selecting a region ~ Compliance with data governance and legal requirements, Proximity to customers, Available services within a region, Pricing
+
+INTERACTING WITH AWS SERVICES
+- AWS MANAGEMENT CONSOLE, AWS CLI, SDKs
+
+NETWORKING (Subnets, VPC and Direct connect)
+1 Amazon VPC - Amazon virtual private cloud enables you to launch resources in a virtual network that you define.
+2 Subnet - A subnet is a section in a VPC in which you can place groups of isolated resources which can be either public or private, Subnets can communicate together within a VPC.
+3 AWS Direct Connect - Establish a dedicated connection between an on-premises data center and the VPC
