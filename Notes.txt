@@ -1,27 +1,26 @@
-1. Cloud Computing (Pay only for what you use, Capacity, Economies of Scale, Speed and agility)
+1. Cloud Computing (Pay for only what you use, Capacity and allocate resources as needed)
 - Access services on demand, avoid large upfront investments, provision computing resources as needed, pay for only what you use
 
-2. Cloud based deployment
-- Run all parts of app in the cloud, Migrate existing apps to the cloud, design/build new apps in the cloud
-
-3. On premises deployment
-- Use virtualization and resource management tools to deploy resources
-- Use app management and virtualization technologies to increase resource usage
-
-4. Hybrid deployment
-- Connect cloud-based resources to on-premises infra
-- Integrate cloud-based resources with legacy IT apps
-
-5. Cloud Computing benefits
+2. Cloud Computing benefits 
 - Variable expenses
 - Capacity
-- Economies of scale
-- Speed and agility
-- Global in minutes
+- Economies of scale (Pay higher prices based on only your own usage, Benefit from customers aggregated usage)
+- Speed and agility (Minutes between wanting resources and having resources)
+- Global in minutes (Quickly deploy apps worldwide, AWS global infra)
 
-6. Core services
+3. Core services
 - Compute networking and content delivery
 - Storage
 - Database
 - Security, identity and compliance
 - Management and governance
+
+4. Services
+1. EC2 -> connect/launch instance, Auto scaling, balance compute/ compute-intensive apps, batch processing workloads, compute-intensive workloads
+2. AMI -> Amazon machine image
+3. Elastic Load balancing service - automatically distributes traffic across multiple resources
+4. Amazon simple notification service -messages are published to topics
+5. Amazon simple queue service - send/store and receive message
+5. AWS Lambda - Run code without provisioning or managing servers, Pay only for compute time while code is running
+6. AWS container orchestration services - a. ECS (Run and scale containerized apps) b. EKS (Run and scale kubernetes apps) c. AWS Fargate (Run serverless containers with Amazon ECS or EKS)
+
