@@ -1,0 +1,152 @@
+
+1. Which AWS Cloud service provides recommendations on how to optimize performance for AWS services?
+AWS cloudTrail, Amazon Inspector, Amazon CloudWatch, AWS Trusted Advisor
+=> Amazon Inspector
+
+2. A company uses Amazon EC2 instances to run apps that are dedicated to different departments. The company needs to break out the costs of these 
+apps and allocate them to the relevant department. The EC2 instances run in a single VPC.
+How can the company achieve these requirements?
+=> Create tags by department on the instances and then run a cost allocation report
+
+3. A Cloud Practitioner requires point-by-time recovery (PITR) for an Amazon DynamoDB table. 
+who is responsible for configuring and performing backups?
+=? The customer is responsible for configuring and AWS is responsible for performing backups
+
+4. What advantages does a database administrator ontain by using the Amazon Relational Database Service (RDS)?
+=> RDS simplifies relational database administration tasks
+
+5. Which tasks can a user complete using the AWS  Cost Management tools?
+=> 1. Automatically terminate AWS resources if budget thresholds are exceeded
+   2. Create budgets and receive notifications if current or forecasted usage exceeds the budgets
+   
+6. A company is deploying a new workload and software licensing requirements dictate that the workloads
+must be run on a specific, physical server
+=> Dedicated hosts
+
+7. What is the best practice for managing AWS IAM access keys?
+=> Customers should rotate access keys regularly
+
+8. A company is deploying an application on Amazon EC2 that requires low-latency access to app components in an on-premises data center. Which AWS service or resource can the company use to extend their existing VPC to the on-premises data center?
+=> AWS Outposts
+
+9. Which of the following represents a value proposition for using the AWS Cloud?
+=> It is not necessary to enter into long term contracts
+
+10. A company is designing a new service that must align with the operational excellence pillar of the AWS Well-Architected Framework
+=> Anticipate failure, Perform operations as code
+
+11. When running apps in the AWS Cloud, which common tasks can AWS manage on behalf of their customers?
+=> Taking a backup of a database, Patching database software
+
+12. An individual IAM user must be granted access to an Amazon S3 bucket using a bucket policy. Which element in the S3
+bucket policy should be updated to define the user account for which access which will be granted?
+=> Principal
+
+13. A user is planning to launch three EC2 instances behind a single Elastic Load Balancer. The deployment should be highly available.
+How should the user achieve this?
+=> Launch the instances across multiple Availability Zones in a single AWS Region
+
+14. Which of the following deployments involves the reliability pillar of the AWS Well-architected Framework?
+Amazon RDS Multi-AZ deployment
+
+15. Which of the following statements best describes the concept of agility in relation to cloud computing on AWS?
+=> The speed at which AWS resources can be created, the ability to experiment quickly
+
+16. A user needs to identify underutilized Amazon EC2 instances to reduce costs.
+Which AWS service or feature will meet this requirement?
+=> AWS Trusted Advisor
+
+17. A company is deploying an app in the AWS Cloud. How can they secure the app?
+=> Enable encryption for the app data at rest, Limit access privileges according to the principal of 
+least privilege
+
+18. A company plans to use reserved instances to get discounted pricing for Amazon EC2 instances.
+The company may need to change the EC2 instance type during the one year period. 
+Which instance purchasing option is the MOST cost-effective for this use case?
+=> Convertible Reserved Instances
+
+19. A cloud practitioner anticipates an increase in app traffic at a future date and time when a sales event will take place. 
+How can the Cloud Practitioner configure Amazon EC2 Auto Scaling to ensure the right number of Amazon EC2 instances are available ahead of the event?
+=> Configure a scheduled scaling policy
+
+20. An application uses a PostgreSQL database running on a single Amazon EC@ instance. A Cloud Practitioner has been asked to increase the 
+availability of the database so there is automatic recovery in the case of a failure.
+Which tasks can the Cloud Practitioner take to meet this requirement?
+=> Migrate the database to Amazon RDS and enable the Multi-AZ feature
+
+21. Which of the foll AWS services are compute services?
+=> AWS Batch, AWS Elastic Beanstalk
+
+22. A company is deploying a new web app in a single AWS Region that will be used by users globally. Which AWS services
+will assist with lowering latency and improving transfer speeds for the global users?
+=> AWS cloudfront, AWS Global Accelerator
+
+23. A company must provide access to AWS resources for their employees. Which security practices should they follow?
+=> 1. Create IAM policies based on least privilege principles 2. Enable multi-factor authentication for users
+
+24. Which tasks require the use of the AWS account root user?
+=> Changing AWS support plans, Changing the account name
+
+25. What can a Cloud Practitioner use to categorize and track AWS costs by project?
+=> Cost Allocation Tags
+
+26. Which of the foll AWS features or services can be used to provide root storage volumes for Amazon EC2 instances?
+=> Amazon Elastic Block Store (EBS)
+
+27. Which of the foll are valid benefits of using the AWS Cloud?
+=> Fast provisioning of IT resources, Ability to go global quickly
+
+28. Which of the foll will help a user determine if they need to request an Amzon EC2 service limit increase?
+=> AWS Trusted Advisor
+
+29. An amaxon Virtual Private Cloud (VPC) can include multiple
+=> Availability Zones
+
+30. What are AWS Identity and Access Management (IAM) access keys used for?
+=> Making programmatic calls to AWS from AWS APIs
+
+31. Customers using AWS services must patch operating systems on which of the foll services?
+=> Amazon EC2
+
+32. Which AWS service can a company use to discover and protect sensitive data that is stored in S3 buckets
+=> Amazon Macie
+
+33. How much data can a company store in the S3 service?
+=> Virtually unlimited
+
+34. A company is planning to move a number of legacy apps to the AWS cloud. The solution must be cost-effective. Which approach should the company take?
+=> Rehost the apps on Amazon EC2 instances that are right-sized
+
+35. A company runs a batch job on an EC2 instance and it takes 6 hours to complete.
+The workload is expected to double in volume each month with a proportional increase in processing time.
+What is the most effective cloud architecture to address the growing workload?
+=> Run the batch workload in parallel across multiple Amazon EC2 instances
+
+36. A company has multiple aws accounts and is using AWS org with consolidated billing. Which adv will they benefit from?
+=> They may benefit from lower unit pricing for aggregated usage, They will receieve one bill for the accounts in the org
+
+37. Which type of credential should a Cloud practitioner use for programmatic access to AWS resources from the AWS CLI/API?
+=> Access keys
+
+38. A company has many underutilized compute resources on-premises. Which AWS cloud features will help resolve thie issue?
+=> Elasticity
+
+39. Which benefits can a company gain by deploying a relational database on Amazon RDS instead of EC2?
+=> 1. Software patching 2. Automated backups
+
+40. Which of the foll can an AWS customer use to launch a new ElastiCache cluster?
+=> 1. AWS Management Console, 2. AWS CloudFormation
+
+41. What is one method of protecting against distributed denial of service (DDoS) attacks in the AWS cloud?
+=> Configure a firewall in front of resources
+
+42. A large company is interested in avoiding long-term contracts and moving from fixed costs to variable costs?
+=> Pay-as-you-go pricing
+
+43. Which AWS feature can be used to launch a pre-configured Amazon Elastic Compute Cloud EC2 instance?
+=> Amazon Machine Image (AMI)
+
+44.Which AWS service provides a managed software version control system?
+=> AWS CodeCommit
+
+45.
