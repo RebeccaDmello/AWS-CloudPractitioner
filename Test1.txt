@@ -149,4 +149,62 @@ What is the most effective cloud architecture to address the growing workload?
 44.Which AWS service provides a managed software version control system?
 => AWS CodeCommit
 
-45.
+45. How does the AWS cloud increase the speed and agility of execution for customers?
+=> Fast provisioning of resources, Scalable compute capacity
+
+46. A Cloud Practitioner needs a tool that can asist with viewing and managing AWS costs and usage over time. Which tool should the Cloud Practitioner use?
+=> AWS Cost Explorer
+
+47. Which resources should a new user on AWS use to get help with deploying popular technologies based on AWS best practices, including architecture and deployment instructions?
+=> AWS Quick Starts
+
+48. A company is planning to deploy an app with a relational database on AWS. The app layer requires access to the database instance's OS in order to run scripts.
+The company prefer to keep management overhead to a minimum. Which deployment should be used for the database?
+=> Amazon EC2
+
+49. For what purpose would a cloud practitioner access AWS artifact?
+=> Gain access to AWS security and compliance documents
+
+50. A Cloud Prac is developing a new app and wishes to integrate features of AWS services directly into the app. Which of the following is the BEST tool for this purpose?
+=> AWS Software Development Kit
+
+51. A website has a global customer base and users have reported poor performance when connecting to the site.
+Which AWS service will improve the customer experience by reducing latency?
+=> Amazon CloudFront
+
+52. Which AWS service can assist with protecting a website that is hosted outside of AWS?
+=> AWS Web app Firewall (WAF)
+
+53. Which design principles are enabled by the AWS Cloud to improve the operation of workloads?
+=>1. Loose coupling 2. Remove single point of failure
+
+54. A company needs to publish messages to a tgousands of suvscribers simultaneously using a push mechanism
+Which AWS service should the company use?
+=> Amazon simple notification service (Amazon SNS)
+
+55. A company is launching a new website which is expected to have highly variable levels of traffic. The website will run on Amazon EC2 and must be highly available.
+What is the MOST cost-effective approach?
+=> Create an Amazon EC2 auto scaling group and configure an elastic load balancer
+
+56. A company is deploying a MySQL database on AWS. the database must easily scale and have automatic backup enabled.
+which service should the company use?
+=> Amazon Aurora
+
+57. A company is migrating a monolithic app that does not scale well into the cloud and refactoring it into a microservices archi.
+Which best practice of the AWS well0architected framework does this plan relate to?
+=> Implement loosely coupled services
+
+58. A customer needs to determine Total Cost of Ownership (TCO) for a workload that requires physical isolation. Which hosting model should be accounted for?
+=> Dedicated hosts
+
+59. According to the AWS shared responsibility model, which of the foll is a responsibility of AWS?
+=> Updating the firmware on the underlying EC2 hosts
+
+60. A company plans to deploy a relational database on AWS. The IT department will perform database administration. Which service should the company use?
+=> Amazon EC2
+
+61. Which AWS services can a company use to gather info about activity in their AWS account?
+=> Amazon CloudWatch, AWS CloudTrail
+
+62. A Cloud Practitioner needs to monitor a new amazon EC2 instances CPU and network utilization. Which AWS service should be used?
+=> Amazon CloudWatch
