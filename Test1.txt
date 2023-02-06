@@ -208,3 +208,12 @@ Which best practice of the AWS well0architected framework does this plan relate 
 
 62. A Cloud Practitioner needs to monitor a new amazon EC2 instances CPU and network utilization. Which AWS service should be used?
 => Amazon CloudWatch
+
+63. Which of the foll is a sole responsibility of AWS?
+=> availability zone management
+
+64. AWS are able to continually reduce their pricing due to:
+=> Economies of scale
+
+65. Which AWS service can a team use to deploy infra on AWS using familiar programming languages?
+=> AWS Cloud Development Kit (AWS CDK)
