@@ -116,5 +116,31 @@ Which tool should the company use to eliminate the cost of the workload?
 37. An ecommerce company is using Auto scaling groups to manage a grp of web servers running on EC2 and are additionally placed behind an Elastic Load balancer. This archi follows which AWS Well-archi framework best practice?
 => Design for failure
 
-38
+38. Which AWS service of feature can be used to capture info about inbound and outbound IP traffic on network interfaces in a VPC?
+=> VPC Flow logs
+
+39. A company has many different business units all using the same AWS services to manage their different apps. Which AWS service or tool can the company use to receive volume discounts across multiple AWS accounts?
+=> AWS Orgnizations
+
+40. An IT company has deployed its infra on the AWS cloud. There must be a database that supports reads with a latency of under a millisecond for 
+critical apps. Which AWS service will meet this requirement?
+=> Amazon ElastiCache
+
+41. An Amazon EC2 instance running the amazon linux 2 AMI is billed in what increment?
+=> per second
+
+42. An archi ability to withstand failure with minimal downtime demonstrates which AWS cloud benefits?
+=> High Availability
+
+43. How does Amazon EC2 auto scaling help with resiliency?
+=> By launching and terminating instances as needed
+
+44. How does the AWS global infra offer high availability and fault tolerance to customers?
+=> The AWS infra consists of isolated AWS regions with independent AZ that are connected with low-latency networking and redundant power supplies
+
+45. What is a specific benefit of an Enterprise Support plan?
+=> Included Technical Account Manager
+
+46. A company has 50 diff BU and requires that each BU's billing info is viewed separately. What should a cloud pract recommend?
+=> Tag each BU's resources, the filter by unit in Cost Explorer
 
