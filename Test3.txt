@@ -85,4 +85,36 @@ Which AWS service will meet these requirements?
 Which Amazon EC2 instance purchasing option meets these requirements MOST cost-effectively?
 => On-Demand capacity reservation with savings plan
 
-28. 
+28. Which of the below is an example of an archi benefits of moving to the cloud?
+=> Elasticity
+
+29. Which AWS service provides on-demand downloads of AWS security and compliance reports?
+=> AWS Artifact
+
+30. A user needs a quick way to determine if any EC2 instances have ports that allow unrestricted access. Which AWS service will support this requirement?
+=> AWS Trusted Advisor
+
+31. Your CTO wants to move to cloud. What cost advantages are there to moving to cloud?
+=> You provision only what you need and adjust to peak load
+
+32. Which AWS service can be used to track the activity of users on AWS?
+=> AWS CloudTrail
+
+33. Which AWS services can be used as infra automation tools?
+=> 1/ AWS OpsWorks 2. CloudFormation
+
+34. An org is considering imple a new workload in the AWS cloud. However, the company first wants to forecast costs.
+Which tool should the company use to eliminate the cost of the workload?
+=> AWS Pricing Calculator
+
+35. Which service can be used to easily create multiple accounts?
+=> AWS Organizations
+
+36. How can a company separate costs for storage, EC2, S3 and other AWS services by department?
+=> Add department-specific tags to each resource
+
+37. An ecommerce company is using Auto scaling groups to manage a grp of web servers running on EC2 and are additionally placed behind an Elastic Load balancer. This archi follows which AWS Well-archi framework best practice?
+=> Design for failure
+
+38
+
