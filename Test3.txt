@@ -1,1 +1,88 @@
+1. Which AWS support plan provides access to archi and operational reviews, as well as 24/7 access to cloud support engineers through email, online chat and phone?
+=> Enterprise
 
+2. What tech enables compute capacity to adjust as loads change?
+=> Auto scaling
+
+3. Which of the foll is an advantage of AWS cloud computing?
+=> Trade fixed expenses for variable expenses
+
+4. What are the benefits of using reserved instances?
+=> Reduced cost, reserved capacity
+
+5. Which of the foll are adv of the AWS cloud?
+=> 1. High economies of scale 2. Launch globally in minutes
+
+6. Under the AWS shared responsibility model, which of the foll is an exm of customer responsibility in the AWS Cloud?
+=> Firewall configuration
+
+7. Which AWS services are associated with Edge locations?
+=> 1. AWS Shield 2. AWS cloudFront
+
+8. A company plans to connect their on-premises data center to the AWS cloud and requires consistent bandwidth and performance. Which AWS service should the company choose?
+=> AWS Direct Connect
+
+9. You have been running an on-demand Amazon EC2 instance running Linux for 4hrs, 5 minutes and 6 seconds. How much time will you be billed for?
+=> 4hrs, 5mins and 6 seconds
+
+10. A company requires a single service which can manage their backup and restore requirements, their data lakes, and archives all in noe place.
+Which AWS service is suitable for all these use cases?
+=> Amazon Simple Storage Service
+
+11. After an org has migrated several servers into AWS, they are unsure as to what they must directly manage themselves.
+Which cost is the company's direct responsibility?
+=> Cost of app software licenses
+
+12. Which AWS service or feature can be used to restrict the individual API actions that users and roles in each member account can access?
+=> AWS Organizations
+
+13. How can an org track resource inventory and configuration history for the purpose of security and regulatory compliance?
+=> Configure AWS config with the resource types
+
+14. Which IAM entity is associated with an access key ID and secret access key?
+=> IAM User
+
+15. An organization recently migrated to AWS and wants to enable intelligent threat protection and continuous monitoring across all its accounts.
+Which AWS service should the company use to achieve this goal?
+=> Amzon GuardDuty
+
+16. A company has been using an AWS managed IAM policy for granting permissions to users but needs to add some permissions
+=> Create a custom IAM policy
+
+17. Which AWS tools can be used for automation?
+=> 1. AWS CloudFormation 2. AWS Elastic Beanstalk
+
+18. Under the AWS shared responsibility model, which actions are the resopnsibility of AWS?
+=> 1. Scanning AWS service endpoints for vulnerabilities 2. Encrypting traffic on the AWS backbone between global and regional AWS facilities
+
+19. A company needs to optimize costs and resource usage through monitoring of operational health for all resources running on AWS.
+Which AWS service will meet these requirements?
+=> Amazon CloudWatch
+
+20. A new web application is being developed by a company. Logging into the app through a social identity provider is a must have requirement for the company.
+Which AWS service will meet these requirements?
+=> AWS Identity and Access management (IAM)
+
+21. What AWS service decouples app components so that they can run independetly?
+=> Amazon Simple Queue Service (Amazon SQS)
+
+22. A company needs to invoke an AWS step Functions workflow each time an amazon EC2 instance state changes.
+=> Amazon EventBridge
+
+23. AWS Direct Connect is used by a company that wants to establish connectivity across multiple AWS regions using VPCs.
+=> AWS Transit Gateway
+
+24. An org moves a workload to amazon EC2 instances on AWS. Cost-effectiveness is the key to running the workload properly in the cloud
+=> Rightsize all the EC2 instances that are used in the deployment
+
+25. To gain greater discounts, which services can be reserved?
+=> 1. Amazon DynamoDB 2. Amazon RedShift
+
+26. Which of the foll are advantages of the AWS Cloud?
+=> 1. Users can stop guessing about resource capacity 2. Users can stop spending money on the maintenance of data centers
+
+27. A company has a mission critical Linux-based app. The app must run every monday from 6 am until 10 pm. As the app is critical, it can't be interrupted.
+Which Amazon EC2 instance purchasing option meets these requirements MOST cost-effectively?
+=> On-Demand capacity reservation with savings plan
+
+28. 
