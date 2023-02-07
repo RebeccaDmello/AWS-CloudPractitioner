@@ -1,1 +1,181 @@
+1. Which service can a Cloud Practitioner use to configure custom cost and usage limits and enable alerts for when defined thresholds are exceeded?
+=> AWS Budgets
+
+2. A Service Control Policy (SCP) is used to manage the maximum available permissions and is associated with which of the following?
+Service control policies (SCPs) manage permissions for which of the following?
+=> AWS Organizations
+
+3. Which AWS service or feature allows a company to receive a single monthly AWS bill when using multiple AWS accounts?
+=> Consolidated billing
+
+4. Which AWS service can be used to perform data extract, transform, and load (ETL) operations so you can prepare data for analytics?
+=> AWS Glue
+
+5. Which of the following should be used to improve the security of access to the AWS Management Console?
+=> AWS Multi-factor authentication, Strong password policies
+
+6. Which AWS-managed service can be used to process vast amounts of data using a hosted Hadoop framework?
+=> Amazon EMR
+
+7. What is the function of Amazon EC2 auto scaling?
+=> Scales the number of EC2 instances in or out automatically, based on demand
+
+8. A company has a global user base and needs to deploy AWS services that can decrease network latency for their users. Which services may assist?
+=> Amazon CloudFront, AWS Global Accelerator
+
+9. According to the AWS shared responsibility model, which taks is the customer's responsibility?
+=> Updating the guest operating system on Amazon EC2 instances
+
+10. According to the shared responsibility model, which security and compliance task is AWS responsible for?
+=> Updating Amazon EC2 host firmware
+
+11. A company needs to use third-party software for its workload on AWS. Is there a feature or service of AWS that the company can use to purchase the software?
+=> AWS Marketplace
+
+12. Which combination of steps will enable multi-factor authentication (MFA) on an AWS account>
+=> 1.Activate the MFA device in the IAM console or by using the AWS CLI 2. Acquire an MFA-compatible device
+
+13. A cloud practitioner needs to migrate a 70 TB of data from an on-premises data center into the AWS cloud. The company has a slow and unreliable internet connection. which AWS service can the cloud practitioner leverage to transfer the data?
+=> AWS Snowball
+
+14. How should an organization deploy an app running on multiple EC2 instances to ensure that a power failure does not cause an app outage?
+=> Launch the EC2 instances into different availability zones
+
+15. A Cloud Practitioner requires a simple method to identify if unrestricted access to resources has been allowed by security groups. 
+Which service can the cloud practitioner use?
+=> AWS Trusted Advisor
+
+16. A user needs an automated security assessment report that will identify unintended network access to Amazon EC2 instances and vulnerabilities on those instances. Which AWS service will provide this assessment report?
+=> Inspector
+
+17. Which of the foll are valid best practices for using the AWS Identity and access management (IAM) service?
+=> 1. Use groups to assign permissions to IAM users 2. Create individual IAM users
+
+18. What can be used to allow an app running on an Amazon EC2 instances to securely store data in an Amazon S3 bucket without using long-term credentials?
+=> AWS IAM role
+
+19. Which of the following statements are security principles within the AWS Well-Architected Framework? (Select TWO.)
+=> 1. Monitor, alert and audit actions and changes to AWS resources 2. Protect data in transit and at rest
+
+20. A user has limited knowledge of AWS services, but wants to quickly deploy a scalable Node.js application in an Amazon VPC
+=> AWS Elastic Beanstalk
+
+21. Which of the statements below is correct in relation to Consolidated Billing?
+=> 1. You can combine usage and share volume pricing discounts 2. You receive a single bill for multiple accounts
+
+22. A Cloud Practitioner noticed that IP addresses that are owned by AWS are being used to attempt to flood ports on some of the company's systems. 
+To whom should the issue be reported?
+=> AWS Trust and safety team
+
+23. Which cloud archi design principle is supported by deploying workloads across multiple availability zones?
+=> Design for failure
+
+24. What should a Cloud Practitioner ensure when designing a highly available arch on AWS?
+=> The failure of single component should not affect the app
+
+25. Which AWS service can act as a hybrid storage solution to connect on-premises workloads with the AWS cloud?
+=> AWS Storage Gateway
+
+26. An eCommerce company plans to use the AWS Cloud to quickly deliver new functionality in an iterative manner, minimizing the time to market?
+Which feature of the AWS Cloud provides this functionality?
+=> Agility
+
+27. Which Amazon EC2 tool acts as a virtuak firewall to control inbound and outbound traffic to an EC2 instance?
+=> Security group
+
+28. Which technology can automatically adjust compute capacity as demand for an app increases or decreases?
+=> Auto Scaling
+
+29. Which AWS services offer compute capabilities?
+=> AWS Lambda, EC2
+
+30. A cloud practitioner wants to configure the AWS CLI for programmatic access to AWS services. Which credential components are required?
+=>1. A secret access key 2. An access Key ID
+
+31. Which Amazon EC2 pricing model should be avoided if a workload cannot accept interruption if capacity becomes temporarily unavailable?
+=> Spot Instances
+
+32. A company is interested in moving its on-premises NoSQL database into the AWS Cloud.
+Which AWS service should the company use to replace their existing database?
+=> Amazon DynamoDB
+
+33. A company plan to move the application development to AWS. Which benefits can they achieve when developing and running applications in the 
+AWS Cloud compared to on-premises? (Select TWO.)
+=> 1. AWS can accommodate large changes in app demand 2. AWS makes it easy to implement high availability
+
+34. Which AWS service is a fully-managed source control service that hosts secure Git-based repositories?
+=> AWS CodeCommit
+
+35. What AWS service, tool, or feature can help companies identify underutilized Amazon EC2 instances and reduce their costs?
+=> AWS Trusted Advisor
+
+36. A Cloud practitioner wants to know if there are services which can protect from DDoS attacks directed at AWS services. which AWS service or tool
+will provide this protection?
+=> AWS Shield
+
+37. Amazon S3 is typically used for which of the foll use cases?
+=> 1. Media hosting 2. Host a static website
+
+38. Which AWS dashboard displays relevant and timely info to help users manage ecents in progress and provide proactive notifications to
+help plan for scheduled activities?
+=> AWS Personal Health Dashboard
+
+39. Which AWS service can be used to run Docker containers?
+=> Amazon ECS
+
+40. A company needs a consistent and dedicated connection between AWS resources and an on-premise system. which AWS service can fulfill this requirement?
+=> AWS Direct Connect
+
+41. Which AWS service helps customers meet corporate, contractual, and regulatory compliance requirements for data security by using dedicated hardware appliances within the AWS Cloud?
+=> AWS CloudHSM
+
+42. According to the AWS Shared responsibility model, which two tasks are the responsibility of AWS?
+=> 1. Patch the operating system of Amazon S3 2. Provide physical security for availability zones
+
+43. Which benefit of AWS enables companies to replace upfront fixed expenses with variable expenses when using on-demand tech services?
+=> Pay-as-you-go pricing
+
+44. Which benefits can a company immediately realize using the AWS Cloud?
+=> 1. Capital expenses are replaced with variable expenses 2. Increased agility
+
+45. A Cloud Practitioner is re-architecting a monolithic app. Which design principles for cloud arch fo AWS recommend?
+=> 1. Design for scalability 2. Implement loose coupling
+
+46. Which of the foll can be used to identify a specific user who terminated an Amazon RDS DB instances?
+=> AWS CloudTrail
+
+47. An app has highly dynamic usage patterns. Which characteristics of the AWS cloud make it cost-effective for this type of workload?
+=> 1. Elasticity 2. Pay-as-you-go pricing
+
+48. AWS are able to continue to reduce their pricing due to:
+=> Economies of scale
+
+49. Which of the foll is an adv for a company running workloads in the AWS cloud vs on-premises?
+=> 1. Increased productivity for app dev teams 2. Less staff time is required to launch new workloads
+
+50. Which on-premises costs must be included in a Totla cost of ownership (TCO) calculation when comparing against the AWS Cloud?
+=> 1. Network infra in the data center 2. Physical compute hardware
+
+51. How can an org gain access to compliance reports natively through the AWS console?
+=> AWS Artifact
+
+52. What can a Cloud Practitioner use the AWS Total Cost of Ownership (TCO) calculator for?
+=> Estimate savings when comparing the AWS Cloud to an on-premises environment
+
+53. A company needs an AWS service that can continuously monitor the company's AWS account. If there are any changes to the archi,
+members of the team must be contacted. Which service will meet these requirements?
+=> AWS Config
+
+54. Which AWS service should a cloud practitioner use to establish a secure network connection between an on-premises network and AWS?
+=> Virtual Private Network
+
+55. How can an org take dav of tiered pricing across multiple BU within an org?
+=> AWS Organizations consolidated billing
+
+56. 
+
+
+
+
+
 
