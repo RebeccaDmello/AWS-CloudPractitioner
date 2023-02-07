@@ -172,7 +172,43 @@ members of the team must be contacted. Which service will meet these requirement
 55. How can an org take dav of tiered pricing across multiple BU within an org?
 => AWS Organizations consolidated billing
 
-56. 
+56. A company requires a dashboard for reporting when using a business intelligence solution. Which AWS service can a cloud practitioner use?
+=> Amazon QuickSight
+
+57. Which AWS service can be used to load data from Amazon S3, transform it, and move it to another destination?
+=> AWS Glue
+
+58. Which AWS service does AWS Snowball Edge natively support?
+=> Amazon EC2
+
+59. A company is migrating virtual machines (VMs) from their data center to the AWS Cloud. The company plans to deploy these migrated machines on Amazon EC2.
+Which cloud computing model will the company use for this operation?
+=> Infrastructure as a service (IaaS)
+
+60. Which of the following tasks can a user perform to optimize Amazon EC2 costs? (Select TWO.)
+=> 1. Implement auto scaling groups to add and remove instances based on demand 2. Purchase Amazon EC2 Reserved Instances
+
+61. According to the shared responsibility model, which security-related task is the responsibility of the customer?
+=> Maintaining server-side encryption
+
+62. Which AWS hybrid storage service enables a user’s on-premises applications to seamlessly use AWS Cloud storage?
+=> AWS Storage Gateway
+
+63. Which AWS service should a Cloud Practitioner use to automate configuration management using Puppet?
+=> AWS OpsWorks
+
+64. Which AWS service is used to send both text and email messages from distributed apps?
+=> Amazon Simple Notification Service (Amazon SNS)
+
+65. Which of the foll best describes an availability zone in the AWS Cloud?
+=> One or more physical data centers
+
+
+
+
+
+
+
 
 
 
