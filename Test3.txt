@@ -144,3 +144,62 @@ critical apps. Which AWS service will meet this requirement?
 46. A company has 50 diff BU and requires that each BU's billing info is viewed separately. What should a cloud pract recommend?
 => Tag each BU's resources, the filter by unit in Cost Explorer
 
+47. Which service allows an org to view operational data from multiple AWS services through a unified user interface and automate operational tasks?
+=> AWS Systems Manager
+
+48. AWS Global infra constst of which of the foll components?
+=> AWS Regions
+
+49. which pillar of the AWS well-archi framework includes the design principle of defining workloads, apps, IaC?
+=> Operational excellence
+
+50. Which authentication method is used to authenticate programmatic calls to AWS services?
+=> Access keys
+
+51. Are there AWS services that will identify and search for externally shared AWS resources?
+=> AWS IAM Access Analyzer
+
+52. Which serrvices can be used to cost-effectively move exabytes of data into AWS?
+=> AWS Snowmobile
+
+53. How does Amazon cloudFront deliver content to end users with low latency using the AWS global infra?
+=> Edge locations
+
+54. Which amazon EC2 pricing model is the most cost-effective for an always-up, right-sized database server running a project that will last 1 year?
+=> Standard Reserved Instances
+
+55. Which IAM entity can be used for assigning permissions to multiple users?
+=> IAM Group
+
+56. It is important for users to have access to as many resources as they need. Also, the user needs the ability to scale up and down quicky.
+These capabilities are described by which AWS Cloud benefit?
+=> Elasticity
+
+57. What are the benefits of using amazon rekognition with image files?
+=> Can be used to identify objects in an image
+
+58. What is a benefit of moving an on-premises database to amazon rational database service (RDS)?
+=> There is no need to manage OS
+
+59. How can a user block a suspicious IP address from connecting to an Amazon EC2 instance?
+=> Block the IP on the inbound rule of a network ACL
+
+60. Which IAM entity can be used for assigning permissions to AWS services?
+=> IAM Role
+
+61. Which AWS service or VPC component allows inbound traffic from the internet to access a VPC?
+=> Internet gateway
+
+62. A manager is planning to migrate apps to the AWS cloud and needs to obtain AWS compliance reports. How can these reports be generated?
+=> Download the reports from AWS artifact
+
+63. A security operations engineer needs to implement threat detection and monitoring for malicious or unauthorized behavior. Which service should be used?
+=> Amazon GuardDuty
+
+64. A company has a website that delivers static content from an Amazon S3 bucket to users from around the world. Which AWS service will deliver the content with low latency?
+=> Amazon CloudFront
+
+65. A company currently uses a Security Assertion Markup Language (SAML) based application to log in to third-party business applications and would like to have this hosted in AWS using managed services. Which AWS service will meet this requirement?
+=> Amazon Cognito
+
+
