@@ -1,7 +1,7 @@
 
 1. Which AWS Cloud service provides recommendations on how to optimize performance for AWS services?
 AWS cloudTrail, Amazon Inspector, Amazon CloudWatch, AWS Trusted Advisor
-=> Amazon Inspector
+=> Amazon Trusted Advisor
 
 2. A company uses Amazon EC2 instances to run apps that are dedicated to different departments. The company needs to break out the costs of these 
 apps and allocate them to the relevant department. The EC2 instances run in a single VPC.
