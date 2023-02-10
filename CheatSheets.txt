@@ -38,6 +38,13 @@ Each EBS is automatically replicated within its Availability Zone to protect fro
 
 ~ Elastic File System (EFS) =>  EFS uses the NFS protocol which is Pay for what you use(no pre-provisioning required). It can scale upto petabytes. Elastic which can grown and shrink whenever needed.
 
+6. AWS Shared Responsibility Model (Security + Compliance) Which security is AWS responsible and which is of customer/user
+~ Customer => Customer Data, Platform, Applications, Identity and access management, Operating System, Network & Firewall Confi, Client side data encryption and data integroty authentication, server-side encrypton, networking traffic protection
+~ AWS =>Software, compute, storage, database, networking, HW/AWS Global infra, Regions, AZ, Edge locations
+
+7. AWS Security
+
+
 
 
 
