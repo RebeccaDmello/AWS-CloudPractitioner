@@ -67,7 +67,9 @@ Each EBS is automatically replicated within its Availability Zone to protect fro
 ~ AWS Outposts => It is a service that offers the same AWS infra, services, APIs and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience. Outposts is available as a 42U rack that can scale from 1 rack to 96 racks to create pools of compute and storage capacity
 Outposts is ideal for workloads that require low latency access to on-premises systems, local data processing, data residency and migration of apps with local system interdependencies.
 
-
+9. Identity and Access management
+~ AWS Identity and access management is a web service that helps you securely control access to AWS resources
+~ 
 
 
 
