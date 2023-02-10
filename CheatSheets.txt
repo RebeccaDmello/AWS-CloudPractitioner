@@ -9,4 +9,7 @@
 ~ Amazon CloudWatch(Monitoring - billing & resource) => Collect and track metrics, collect and monitor log files and set alarms, auto react to changes in your AWS resources like EC2 instances, DynamoDB, RDS DB instances, custom metrics and log files. Uses SNS for sending email
 ~ Amazon CloudTrail(Auditing - API records) => Records activity made on your account and delivers log files to an S3 bucket, Logging and saving history of API calls for your AWS account
 
-3.
+3. AWS Content Delivery and DNS Services
+~ Amazon Route 53 => performs 3 main function of Domain registration, Domain Name Service - translate IP address to global recognized name and Health Checking-sends automated requests to your app to verify that it's reachable, available and functional
+
+4. 
