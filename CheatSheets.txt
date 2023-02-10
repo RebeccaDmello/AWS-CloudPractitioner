@@ -5,4 +5,6 @@
 ~ GLUE => runs the ETL jobs on a fully managed, scale-out Apache Spark env to load your data into its destination
 ~ Kinesis => Makes it easy to collect, process and analyze real-time streaming data. categories - Data streams, Data Firehose, Data Analytics, 
 
-2.
+2. Monitoring and Logging services
+~ Amazon CloudWatch(Monitoring) => Collect and track metrics, collect and monitor 
+~ Amazon CloudTrail(Auditing) =>
