@@ -65,7 +65,7 @@ Each EBS is automatically replicated within its Availability Zone to protect fro
 ~ Direct Connect (DX) => It is a network service that provides an alternative to using the internet to connect a customer's on-premises sites to AWS.
 ~ Global accelerator => It is a service that improves the availability and performance of apps with local or global users.
 ~ AWS Outposts => It is a service that offers the same AWS infra, services, APIs and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience. Outposts is available as a 42U rack that can scale from 1 rack to 96 racks to create pools of compute and storage capacity
-
+Outposts is ideal for workloads that require low latency access to on-premises systems, local data processing, data residency and migration of apps with local system interdependencies.
 
 
 
