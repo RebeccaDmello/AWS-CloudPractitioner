@@ -1,0 +1,8 @@
+1. AWS Analytics Services
+~ Athena (Query RDS), EMR (Data processing), GLUE(ETL service) and Kinesis (real-time data)
+~ Athena => Interactive query service that makes easy to analyze data in Amazon S3 using standard SQL
+~ EMR => Elastic Map Reduce, uses hadoop for processing huge amount of data. 
+~ GLUE => runs the ETL jobs on a fully managed, scale-out Apache Spark env to load your data into its destination
+~ Kinesis => Makes it easy to collect, process and analyze real-time streaming data. categories - Data streams, Data Firehose, Data Analytics, 
+
+2.
