@@ -43,6 +43,34 @@ Each EBS is automatically replicated within its Availability Zone to protect fro
 ~ AWS =>Software, compute, storage, database, networking, HW/AWS Global infra, Regions, AZ, Edge locations
 
 7. AWS Security
+~ Artifact (Compliance related reports) => Artifact is your go-to, central resource for compliance-related info. It provides on-demand access to AWS security and compliance reports and select online agreements. 
+~ GuardDuty (Threat detection and security monitoring) => Offers threat detection and continuous security monitoring for malicious or unauthorized behavior to help protect AWS accounts and workloads
+~ WAF (Firewall) => Web application firewall protects against common exploits that compromise app availability, security or excessive resource consumption
+~ Shield(Protects DDoS) => Shield is a managed Distributed DDoD protection service
+~ KMS (symmetric/asymmetric encryption key)=> Key management service gives you centralized control over the encryption keys used to protect your data. 
+~ CloudHSM => Cloud-based hardware security module that enables you to easily generate and use your own encryption keys on the AWS Cloud
+~ Certificate Manager => Provides you with SSL/TLS certificates for use.
+~ Inspector(Security assessment service) => Automated security assessment service that helps improve the security and compliance of app deployed on AWS
+~ Trust Advisor(advisor for cost optimization, performance, security and fault tolerance)
+~ Penetration testing => Penetration testing is the practice of testing one's own app security for vulnerabilities by simulating an attack
+~ SSO Single Sign-On => It is a cloud-based single sign-on service that makes it easy to centrally manage SSO access to all your AWS accounts and cloud apps.
+~ Cognito (User sign-up/sign-in) => Allows to add user sign-up, sign-in and access control to your web and mobile apps quickly and easily.
+
+8. AWS Networking Services
+~ VPC (Virtual Private Cloud) => A Virtual Private cloud is a virtual network dedicated to your AWS account. VPC spans all the availability zones in the region. By default you can create up to 5 VPCs per region.
+~ Subnet => A segment of a VPC's IP address range where you can place groups of isolated resources
+~ Internet Gateway => Amazon VPC side of a connection to the public internet
+~ NAT Instance => Managed by software updates, Scale up manually, No high availability, need security group, can use as bastion host
+~ NAT Gateway => Managed by AWS, Elastic scalability upto 45 Gbps, provides automatic high availability within an AZ and can be placed in multiple AZs, no security groups, can't access through SSH
+~ Direct Connect (DX) => It is a network service that provides an alternative to using the internet to connect a customer's on-premises sites to AWS.
+~ Global accelerator => It is a service that improves the availability and performance of apps with local or global users.
+~ AWS Outposts => It is a service that offers the same AWS infra, services, APIs and tools to virtually any datacenter, co-location space, or on-premises facility for a truly consistent hybrid experience. Outposts is available as a 42U rack that can scale from 1 rack to 96 racks to create pools of compute and storage capacity
+
+
+
+
+
+
 
 
 
