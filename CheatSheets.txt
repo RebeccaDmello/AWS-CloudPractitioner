@@ -76,13 +76,13 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 ~ Policies => Policies are documents that define permissions and can be applied to users, groups and roles
 ~ STS => Security token service is a web service that enables you to request temporary, limited-privilege credentials for IAM users or for users that you authenticate
 
-10. Global Infra
-~ Regions
-~ Availability Zones 
-~ Local Zones
-~ AWS Wavelength
-~ AWS Outposts
-~ Edge locations and regional edge caches
+10. Global Infra (IMPORTANT)
+~ Regions 26 => AWS Region is a physical geographical location which can consists of 2 or more availability zones and data centers.
+~ Availability Zones 84 => 
+~ Local Zones 17 =>
+~ AWS Wavelength 24 =>
+~ AWS Outposts =>
+~ Edge locations and regional edge caches =>
 
 
 
