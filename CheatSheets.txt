@@ -70,7 +70,19 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 9. Identity and Access management (authorized signin-signout)
 ~ AWS Identity and access management is a web service that helps you securely control access to AWS resources
 ~ IAM can be use to manage users, groups, access policies, roles, user crendentials, user password policies, multi-factor authentication, API keys for programmatic access
+~ IAM Users => An IAM user is an entity that represents a person or service who has been granted access to the service
+~ Groups => Groups are collections of users and have policies attached to them. A group is not an identity and cannot be identified as a principal in an IAM policy.
+~ Roles => Roles are set of permissions for making AWS service requests
+~ Policies => Policies are documents that define permissions and can be applied to users, groups and roles
+~ STS => Security token service is a web service that enables you to request temporary, limited-privilege credentials for IAM users or for users that you authenticate
 
+10. Global Infra
+~ Regions
+~ Availability Zones 
+~ Local Zones
+~ AWS Wavelength
+~ AWS Outposts
+~ Edge locations and regional edge caches
 
 
 
