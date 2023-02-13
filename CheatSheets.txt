@@ -130,13 +130,16 @@ DynamoDB synchronously replictes data across three facilities in an AWS region f
 ~ Vertical scaling => Add more CPU and/or RAM to existing instances as demand increases, requires a restart to scale up or down, would require scripting or automation tools to automate, scalability limited by maximum instance size
 ~ Stateless apps => A stateless app is an app that needs no knowledge of previous interactions and stores no session info.
 ~ EC2 auto recovery => create an amazon cloudwatch alarm that monitors an EC2 instance and automatically recovers it if it becomes impaired
-~ Auto scaling => With auto scaling, you can maintain app availability and scale your EC2 capacity up or down automatically to conditions you define
+~ Auto scaling => Auto scaling can be configured to automatically replace unhealthy nodes. With auto scaling, you can maintain app availability and scale your EC2 capacity up or down automatically to conditions you define
 ~ CloudWatch Alarms => Create a CloudWatch alarm that sends an SNS messgage when a particular metric goes beyond a specific threshold for a specified number of periods
 ~ CloudWatch Events => CloudWatch service delivers a near real-time stream of system events that describe changes in AWS resources
 ~ OpsWorks Lifecycle events => OpsWorks support continuous confi through lifecycle events that automatically update your instances confi to adapt to event changes
 ~ Lambda schedules events => These events allow you to create a Lambda funct and direct AWS Lambda to execute it on a regular schedule
 ~ Loose coupling => IT system should be designed in a way that reduces interdependencies - a change or a failure in one componet should not cascade to other components
-
+~ ELB and Route53 mask failure by routing traffic to healthy endpoints.
+~ One fault-isolating improvement you can make to traditional horizontal scaling is called sharding
+~ Edge caching => copies of static content and dynamic content can be cached at CloudFront, which is a content delivery network consisting of multiple edge locations around the world.
+~ WAF => Web application firewall can help protect web app from SQL injections and other vulnerabilities in app code.
 
 17. AWS App integration services
 
