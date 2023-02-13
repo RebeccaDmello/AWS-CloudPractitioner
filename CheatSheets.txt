@@ -87,7 +87,7 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 
 11. Databases
 ~ EC2 => Full control over instance and database, Preferred DB not available under RDS
-~ RDS (SQL database, Relational, OLTP) => relational database for OLTP, data is well-formed and structured, online store and banking systems, Used to perform complex queries and joins. RDS supports foll database engines: SQL server, Oracle, MySQL server, PostgreSQL, Aurora, MariaDB.
+~ RDS (SQL database, Relational, OLTP) => relational database for OLTP, data is well-formed and structured, online store and banking systems, Used to perform complex queries and joins. RDS can scale vertically. RDS supports foll database engines: SQL server, Oracle, MySQL server, PostgreSQL, Aurora, MariaDB.
 ~ DynamoDB (NoSQL database) => Unpredictable data structure, in-memory performance with persistence, require dynamic scaling
 ~ Redshift (nonrelational, OLAP, ANALYTICS apps) => Redshift is a SQL based data warehouse used for analytics applications, It is used for OLAP (Online Analytics Processing) use cases. 
 ~ Neptune => Relationships between objects are of high valued
@@ -123,8 +123,18 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 ~ Amazon EC2 Auto Scaling => Automates the process of launching and terminating Amazon EC2 instances based on the traffic demand of your app
 ~ Amazon Elastic Load Balanacing (ELB) => automatically distributes incoming app traffic across multiple targets, such as Amazon EC2 instances, containers and IP addresses. Application Load balancer and network load balancer
 
-
 16. Architecting for the cloud
+~ Horizontal scaling => Add more instances as demand increases, No downtime required to scale up or down, automatic using services such as AWS Auto-scaling, unlimited scalability
+~ Vertical scaling => Add more CPU and/or RAM to existing instances as demand increases, requires a restart to scale up or down, would require scripting or automation tools to automate, scalability limited by maximum instance size
+~ Stateless apps => A stateless app is an app that needs no knowledge of previous interactions and stores no session info.
+~ EC2 auto recovery => create an amazon cloudwatch alarm that monitors an EC2 instance and automatically recovers it if it becomes impaired
+~ Auto scaling => With auto scaling, you can maintain app availability and scale your EC2 capacity up or down automatically to conditions you define
+~ CloudWatch Alarms => Create a CloudWatch alarm that sends an SNS messgage when a particular metric goes beyond a specific threshold for a specified number of periods
+~ CloudWatch Events => CloudWatch service delivers a near real-time stream of system events that describe changes in AWS resources
+~ OpsWorks Lifecycle events => OpsWorks support continuous confi through lifecycle events that automatically update your instances confi to adapt to event changes
+~ Lambda schedules events => These events allow you to create a Lambda funct and direct AWS Lambda to execute it on a regular schedule
+~ Loose coupling => IT system should be designed in a way that reduces interdependencies - a change or a failure in one componet should not cascade to other components
+
 
 17. AWS App integration services
 
