@@ -86,13 +86,14 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 
 11. Databases
 ~ EC2 => Full control over instance and database, Preferred DB not available under RDS
-~ RDS => traditional relational database for OLTP, data is well-formed and structured, existing app requiring RDBMS
-~ DynamoDB => Unpredictable data structure, in-memory performance with persistence, require dynamic scaling
-~ Redshift => Data warehouse for large volumes of aggregated data, primarily OLAP workloads
-~ Neptune => Relationships between objects are of high valud
+~ RDS (SQL database) => relational database for OLTP, data is well-formed and structured, online store and banking systems, Used to perform complex queries and joins.
+RDS supports foll database engines: SQL server, Oracle, MySQL server, PostgreSQL, Aurora, MariaDB.
+~ DynamoDB (NoSQL database) => Unpredictable data structure, in-memory performance with persistence, require dynamic scaling
+~ Redshift => Redshift is a SQL based data warehouse used for analytics applications, It is used for OLAP (Online Analytics Processing) use cases. 
+~ Neptune => Relationships between objects are of high valued
 ~ ElastiCache => Temporary storage for small amount of data, highly volatile data
-~ S3 => Binary large objects, Staic websites
-
+~ S3 => Binary large objects, static websites
+~ Aurora => Amazon's proprietary database
 
 
 
