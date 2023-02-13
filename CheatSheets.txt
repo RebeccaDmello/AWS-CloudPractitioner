@@ -95,7 +95,8 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 ~ Aurora => Amazon's proprietary database
 ~ EMR (log/financial analysis or ETL extract, translate and loading) => EMR utilizes hosted framework running on Amazon EC2 and S3. Also support Apache Spark, HBase, Presto and Flink
 
-
+12. AWS Compute Service (EC2, ECS, Lambda, LightSail, LightSail Databases, Elastic Beanstalk, Batch)
+~ EC2 => Running virtual servers 'instances' in the cloud, Can run windows, Linux or MacOS OS, 
 
 
 
