@@ -117,8 +117,12 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 ~ AWS CloudFormation => CloudFormation provides a common lang to describe and provision all the infra resources in your cloud env. CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your app across all regions and accounts
 
 14. AWS Billing and Pricing
+~
 
-15. AWS Elastic Load Balancing
+15. AWS Elastic Load Balancing (Elasticity and high availability)
+~ Amazon EC2 Auto Scaling => Automates the process of launching and terminating Amazon EC2 instances based on the traffic demand of your app
+~ Amazon Elastic Load Balanacing (ELB) => automatically distributes incoming app traffic across multiple targets, such as Amazon EC2 instances, containers and IP addresses. Application Load balancer and network load balancer
+
 
 16. Architecting for the cloud
 
