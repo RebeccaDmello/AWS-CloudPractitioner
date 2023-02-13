@@ -79,12 +79,19 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 10. Global Infra (IMPORTANT)
 ~ Regions 26 => AWS Region is a physical geographical location which can consists of 2 or more availability zones and data centers.
 ~ Availability Zones 84 => AZs consist of one or more discrete data centers, each with redundant power, networking and connectivity. AZs are designed as independent failure zone.
-~ Local Zones 17 =>
-~ AWS Wavelength 24 =>
-~ AWS Outposts =>
-~ Edge locations and regional edge caches =>
+~ Local Zones 17 => Local zones place compute, storage, database and other AWS services closer to end-users. AWS local zones, you can easily run highly demanding apps that require single-digit millisecond latencies to your end-users.
+~ AWS Wavelength 24 => Wavelength enables developers to build apps that deliver single-digit millisecond latencies to mobile devices and end-users
+~ AWS Outposts => Outposts bring native AWS services, infra and operating models to virtually any data center, co-location space or on-premises facility.
+~ Edge locations and regional edge caches => Edge locations are Content Delivery Network (CDN) endpoints for CloudFront.
 
-
+11. Databases
+~ EC2 => Full control over instance and database, Preferred DB not available under RDS
+~ RDS => traditional relational database for OLTP, data is well-formed and structured, existing app requiring RDBMS
+~ DynamoDB => Unpredictable data structure, in-memory performance with persistence, require dynamic scaling
+~ Redshift => Data warehouse for large volumes of aggregated data, primarily OLAP workloads
+~ Neptune => Relationships between objects are of high valud
+~ ElastiCache => Temporary storage for small amount of data, highly volatile data
+~ S3 => Binary large objects, Staic websites
 
 
 
