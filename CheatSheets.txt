@@ -106,3 +106,25 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 ~ Elastic Beanstalk => Fastest and simplest way to get web apps up and running on AWS. Developers simply upload their app code and the service automatically handles all the details such as resource provisioning, load balancing, auto-scaling and monitoring. Beanstalk is ideal if you have PHP, Java, Python, Ruby, Node.js, .NET, Go or Docker Web app
 ~ AWS Batch => Batch dynamically provisions the optimal quantity and type of compute resources. With AWS Batch you simply package the code for your batch jobs, specify their dependencies and submit your batch job using AWS Management console, CLIs or SDKs
 
+13. AWS Cloud Management Services
+~ AWS Control Tower => Simplifies the process of creating multi-account environments
+~ AWS Service Catalog => Catalogs of IT services that are approved for use on AWS. Allows you to centrally manage commonly deployed IT services. 
+~ Systems Manager => Manages many AWS resources including EC2, S3 and RDS
+~ Personal Health Dashboard => Provides alerts and remediation guidance when AWS is experiencing events that may impact you
+~ Service Health Dashboard => Publishes up-to-the-minute info on service availability
+~ AWS OpsWorks => It is a configured management service that provides managed instances of Chef and Puppet. Updates include patching, updating, backup, configuration and compliance management
+~ AWS Trusted Advisor => Trusted Advisor checks help optimize your AWS infra, improve security and performance, reduce your overall costs and monitor service limits
+~ AWS CloudFormation => CloudFormation provides a common lang to describe and provision all the infra resources in your cloud env. CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your app across all regions and accounts
+
+14. AWS Billing and Pricing
+
+15. AWS Elastic Load Balancing
+
+16. Architecting for the cloud
+
+17. AWS App integration services
+
+
+
+
+
