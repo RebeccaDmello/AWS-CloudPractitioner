@@ -88,13 +88,15 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 11. Databases
 ~ EC2 => Full control over instance and database, Preferred DB not available under RDS
 ~ RDS (SQL database, Relational, OLTP) => relational database for OLTP, data is well-formed and structured, online store and banking systems, Used to perform complex queries and joins. RDS can scale vertically. RDS supports foll database engines: SQL server, Oracle, MySQL server, PostgreSQL, Aurora, MariaDB.
-~ DynamoDB (NoSQL database) => Unpredictable data structure, in-memory performance with persistence, require dynamic scaling
-~ Redshift (nonrelational, OLAP, ANALYTICS apps) => Redshift is a SQL based data warehouse used for analytics applications, It is used for OLAP (Online Analytics Processing) use cases. 
+~ DynamoDB (NoSQL database) => Unpredictable data structure, in-memory performance with persistence, require dynamic scaling. NoSQL scales horizontally.
+DynamoDB synchronously replictes data across three facilities in an AWS region for fault tolerance.
+~ Redshift (relational, OLAP, ANALYTICS apps) => Redshift is a SQL based data warehouse used for analytics applications, It is used for OLAP (Online Analytics Processing) use cases. Redshift is a managed data warehouse service that is designed to operate at less than a tenth the cost of traditional solutions.
 ~ Neptune => Relationships between objects are of high valued
 ~ ElastiCache(OLAP transactions, streaming videos and data, storing cache) => Temporary storage for small amount of data, highly volatile data
 ~ S3 => Binary large objects, static websites
 ~ Aurora => Amazon's proprietary database
 ~ EMR (log/financial analysis or ETL extract, translate and loading) => EMR utilizes hosted framework running on Amazon EC2 and S3. Also support Apache Spark, HBase, Presto and Flink
+~ Data warehousing => It is a specialized type of relational database, optimized for analysis and reporting of large amount of data
 
 12. AWS Compute Service (EC2, ECS, Lambda, LightSail, LightSail Databases, Elastic Beanstalk, Batch)
 ~ EC2 => Running virtual servers 'instances' in the cloud, Can run windows, Linux or MacOS OS 
