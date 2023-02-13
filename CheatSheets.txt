@@ -1,6 +1,6 @@
 https://digitalcloud.training/category/aws-cheat-sheets/aws-cloud-practitioner/
 
-```
+
 1. AWS Analytics Services
 ~ Athena (Query RDS), EMR (Data processing), GLUE(ETL service) and Kinesis (real-time data)
 ~ Athena => Interactive query service that makes easy to analyze data in Amazon S3 using standard SQL
@@ -98,7 +98,8 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 
 12. AWS Compute Service (EC2, ECS, Lambda, LightSail, LightSail Databases, Elastic Beanstalk, Batch)
 ~ EC2 => Running virtual servers 'instances' in the cloud, Can run windows, Linux or MacOS OS, 
-
-```
+~ AMI (create VM within EC2) => Amazon Machine image is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud EC2
+~ ECS => Elastic Container Service is a container management service that provide supports to Docker Containers and allows to run apps on a managed cluster of EC2 instances
+~ 
 
 
