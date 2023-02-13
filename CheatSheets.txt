@@ -142,6 +142,11 @@ DynamoDB synchronously replictes data across three facilities in an AWS region f
 ~ WAF => Web application firewall can help protect web app from SQL injections and other vulnerabilities in app code.
 
 17. AWS App integration services
+~ Simple Queue Service (SQS) => Messaging queue, store and forward patterns. Building distributed/decoupled apps
+~ Simple Notification Service (SNS) => Set up,  operate and send notifications from the cloud. Send email notification when CloudWatch alarm is triggered
+~ Step Functions => Out-of-the-box coordination of AWS service components with visual workflow. Order processing workflow
+~ Simple Workflow service (SWF) => Need to support external processes or specialized execution logic
+~ Amazon MQ => Message broker service for Apache Active MQ and RabbitMQ. Need a message queue that supports industry standard APIs and protocols; migrate queues to AWS
 
 
 
