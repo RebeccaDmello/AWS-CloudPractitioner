@@ -162,6 +162,19 @@ migrate queues to AWS
 ~ DevOps Guru => Cloud operations service for improving app operational performance and availability. Detect behaviors that deviate from normal operating patterns
 
 19. Additional AWS Services
+~ Elastic Container Service for kubernetes(EKS) Kubernetes=> Service managed Kubernetes service that makes it easy for you to run kubernetes on AWS without needing to install, operate and maintain your own kubernetes control plane. EKS automatically manages the availability and scalability of the kubernetes control plane nodes that are responsible for starting and stopping containers, Scheduling containers on virtual machines, storing cluster data and other tasks
+~ Neptune (Graph apps) => Neptune is a fully managed graph database service that makes it easy to build and run apps that work with highly connected datasets
+~ Migration Hub(Progress tracker) => Migration Hub provides a single location to track the progress of app migrations across multiple AWS. 
+~ Database migration service => helps you migrate databases to AWS quickly and securely
+~ Server Migration service => Agentless service which makes it easier and faster for you to migrate thousands of on-premises workloads to AWS. SMS allows you to automate, schedule and track incremental replications of live server volumes, making it easier for you to coordinate large-scale server migrations
+~ API Gateway => Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor and secure APIs at any scale.
+~ CodeStar (Continuous delivery) => CodeStar enables you to quickly develop, build and deploy apps on AWS. CodeStar provides a unified user interface, enabling you to easily manage your software dev activities
+~ CodeCommit (Source Control) => CodeCommit is a fully managed source control service that hosts secure Git-based repo.
+~ CodeBuild (Continuous integration service) => Service that compiles source code, run tests and produces software packages that are ready to deploy
+~ CodeDeploy (deployment) => Automates SW deployments to a variety of compute services such as EC2, AWS Lambda and your on-premises servers
+~ CodePipeline (Continuos delivery) => It is a fully managed continuous delivery service that automates the build, test and deploy phases of your release process every time there is a code change
+~ X-Ray => Helps developers analyze and debug production, distributed apps, such as those built using a microservice archi
+~ Managed Services => Provides ongoing management of your AWS infra so you can focus on your apps. 
 
 
 
