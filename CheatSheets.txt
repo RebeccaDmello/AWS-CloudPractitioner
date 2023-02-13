@@ -78,7 +78,7 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 
 10. Global Infra (IMPORTANT)
 ~ Regions 26 => AWS Region is a physical geographical location which can consists of 2 or more availability zones and data centers.
-~ Availability Zones 84 => 
+~ Availability Zones 84 => AZs consist of one or more discrete data centers, each with redundant power, networking and connectivity. AZs are designed as independent failure zone.
 ~ Local Zones 17 =>
 ~ AWS Wavelength 24 =>
 ~ AWS Outposts =>
