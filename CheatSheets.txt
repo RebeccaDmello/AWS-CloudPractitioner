@@ -97,9 +97,12 @@ Outposts is ideal for workloads that require low latency access to on-premises s
 ~ EMR (log/financial analysis or ETL extract, translate and loading) => EMR utilizes hosted framework running on Amazon EC2 and S3. Also support Apache Spark, HBase, Presto and Flink
 
 12. AWS Compute Service (EC2, ECS, Lambda, LightSail, LightSail Databases, Elastic Beanstalk, Batch)
-~ EC2 => Running virtual servers 'instances' in the cloud, Can run windows, Linux or MacOS OS, 
+~ EC2 => Running virtual servers 'instances' in the cloud, Can run windows, Linux or MacOS OS 
 ~ AMI (create VM within EC2) => Amazon Machine image is a special type of virtual appliance that is used to create a virtual machine within the Amazon Elastic Compute Cloud EC2
 ~ ECS => Elastic Container Service is a container management service that provide supports to Docker Containers and allows to run apps on a managed cluster of EC2 instances
-~ 
-
+~ AWS Lambda => It is a serverless computing tech that allows you to run code without provisioning or managing servers. Executes code only when needed and scales automatically.
+~ AWS LightSail => LightSail provides preconfigured suit to launch your app quickly - a virtual machine, SSD-based storage, data transfer, DNS mgmnt and a static IP
+~ AWS LightSail Databases => They are the instances dedicated to running databases
+~ Elastic Beanstalk => Fastest and simplest way to get web apps up and running on AWS. Developers simply upload their app code and the service automatically handles all the details such as resource provisioning, load balancing, auto-scaling and monitoring. Beanstalk is ideal if you have PHP, Java, Python, Ruby, Node.js, .NET, Go or Docker Web app
+~ AWS Batch => Batch dynamically provisions the optimal quantity and type of compute resources. With AWS Batch you simply package the code for your batch jobs, specify their dependencies and submit your batch job using AWS Management console, CLIs or SDKs
 
