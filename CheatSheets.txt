@@ -122,7 +122,10 @@ DynamoDB synchronously replictes data across three facilities in an AWS region f
 ~ AWS CloudFormation => CloudFormation provides a common lang to describe and provision all the infra resources in your cloud env. CloudFormation allows you to use a simple text file to model and provision, in an automated and secure manner, all the resources needed for your app across all regions and accounts
 
 14. AWS Billing and Pricing
-~
+~ AWS Quick starts => Quick starts are built by AWS architects and partners to help you deploy popular solutions on AWS, based on AWS best practices for security and high availability
+~ AWS Cost Explorer => Free tool that allows you to view charts of your costs. You can view cost data for the past 13 months and forecast how much you are likely to spend over the next three months.
+~ Pricing Calculator => It is a web-based service that you can use to create cost estimates to suit your AWS use cases
+~ AWS cost and usage report => Publish AWS billing reports to an Amazon S3 bucket
 
 15. AWS Elastic Load Balancing (Elasticity and high availability)
 ~ Amazon EC2 Auto Scaling => Automates the process of launching and terminating Amazon EC2 instances based on the traffic demand of your app
@@ -187,4 +190,11 @@ migrate queues to AWS
 ~ WorkDocs => Fully managed, secure content creation, storage and collaboration service. Create, edit and share content that's centrally stored on AWS
 ~ IoT => Describes network of physical objects that are embedded with sensors of software. Each IoT device can communicate and exchange data with other devices and systems
 
+The 6 Pillars of the AWS Well-Architected Framework
+1. Operational Excellence
+2. Security
+3. Reliability
+4. Performance Efficiency
+5. Cost Optimization
+6. Sustainability
 
