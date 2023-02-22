@@ -1,0 +1,27 @@
+//Test 1
+Reserved Instances
+- Convertible => Enables you to exchange one or more convertible reserved instances with diff confi including family, OS and tenancy 
+- Zonal => Zonal RI apply to instance usage within a specific AZ within an AWS region
+- Standard =>You can't change the Instance type but you can change the size
+- Regional => Apply to instance usage within any AZ in a specified region
+
+Hosting models
+- Dedicated host => fully dedicated to your use, has VPC, SW licenses/servers
+- Reserved Hosts => provide significant discount, suitable app with Predictable usage
+- On-demand host => 
+- Spot Instances => Purchase speare computing capacity with no upfront commitment at discounted hourly rates, good for app with flexible start date
+
+- Avoid long-term contracts => Pay as you go pricing
+- Value proposition => Economies of Scale
+
+Speed and Agility
+- Scalable compute capacity and fast provisioning of resources
+
+Cost allocation tags => tag your resources by department or project and then view costs attributed to the resources
+AWS Trusted advisor => This service advises you on best practices for provisioning resources
+Consolidated billing => Consolidated billing will give you usage per account but not per project
+
+Scheduled scaling => Allows to scale schedule according to predictable load changes
+Predictive scaling => It uses daily and weekly trends to determine when to scale.
+Target tracking scaling policy => This policy will cause the ASG to attempt to keep resources utilization at the target value
+Step scaling => 
