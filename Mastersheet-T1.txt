@@ -66,3 +66,10 @@ SQS => message queue service used for decoupling apps
 SWF => Simple workflow service is a workflow orchestration service, not a messaging service
 Step functions => AWS step functions is a serverless workflow orchestration service for modern apps
 
+Databases
+EC2 => Need full control over instance and database, third-party database engine
+RDS => Traditional relational database, oracle, postgreSQL, Microsoft SQL, MariaDB, MySQL, Data is well-formed and structured (Simplies database administration task)
+DynamoDB => NoSQL database, in-memory performance, high I/O needs, Dynamic scaling
+Redshift => Data warehouse for analytics
+ElastiCache => Fast temporary storage for small amounts of data, in-memory database, caching
+EMR => Analytics workloads using Hadoop framework
