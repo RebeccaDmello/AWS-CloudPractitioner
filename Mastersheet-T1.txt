@@ -6,7 +6,7 @@ Reserved Instances
 - Regional => Apply to instance usage within any AZ in a specified region
 
 Hosting models
-- Dedicated host => fully dedicated to your use, has VPC, SW licenses/servers
+- Dedicated host => fully dedicated to your use, has VPC, SW licenses/servers, workload must be run on specific, physical server
 - Reserved Hosts => provide significant discount, suitable app with Predictable usage
 - On-demand host => 
 - Spot Instances => Purchase speare computing capacity with no upfront commitment at discounted hourly rates, good for app with flexible start date
@@ -20,8 +20,49 @@ Speed and Agility
 Cost allocation tags => tag your resources by department or project and then view costs attributed to the resources
 AWS Trusted advisor => This service advises you on best practices for provisioning resources
 Consolidated billing => Consolidated billing will give you usage per account but not per project
+AWS Trsuted Advisor => It is an online tool that provides you real time guidance to help you provision your resources following AWS best practices.
+Trusted advisor checks help optimize your AWS infra, improve security and performance, reduce your overall costs and monitor service limits.
+Health Dashboard => Shows issues or upcoming events that may impact your resources. It does not notify of service limit breaches
+Amazon RDS => This is a managed SQL database and has nothing to do with service limits generally.
+AWS Cost Explorer => Cost Explorer is used for viewing costs and will not assist with service limits.
+Artifacts => security and compliance documents.
+
+Usage
+IAM => Making programmatic calls to aws from aws apis
+Management console => Logging into the aws management console with user name and password
+Creating encrypted channels using HTTPS => Enabling encryption in transit for web servers
+
+CodeGuru => It is used to review code and provide intelligent recommendations for improvement
+Config => AWS Config is used for configuration compliance management
+Cloud development kit (CDK) => Deploy infra on AWS using familiar programming languages
+CodeCommit => CodeCommit is a fully-managed source control service
+CloudWatch => Monitoring
+CloudTrail => It is used for auditing
+Elastic File System (EFS) => Used for storing data and is mounted by EC2 instances
+Inspector => Inspector is an automated security assessment service that help improve the security and compliance of app deployed on AWS
 
 Scheduled scaling => Allows to scale schedule according to predictable load changes
 Predictive scaling => It uses daily and weekly trends to determine when to scale.
 Target tracking scaling policy => This policy will cause the ASG to attempt to keep resources utilization at the target value
-Step scaling => 
+Step scaling => Step scaling will launch resources in response to demand, this will not ensure the resource are ready at the right time as there will be a delay.
+
+Examples of pillar of the AWS Well-Archi framework
+- Reliability => RDS multi-AZ deployment
+- Performance efficiency =>EBS provisioned IOPS volume
+- Security => WebACL to a cloudFront distribution
+- Operational excellence => Use CloudFormation to deploy infra
+
+AWS Web Application Firewall (WAF) => Protecting a website that is hosted outside of AWS
+EC2 security grps => Security groups can only be attached to EC2 instances
+Network ACL => Only filter traffic entering and leaving a VPC subnet
+
+CodeDeploy => Deploying code from a repository and actually installing the app
+Software Development Kit => Integrate features of aws services directly into the app
+Command Line Interface (CLI) => It is used for running commands.
+CodePipeline => Automating the code release lifecycle
+
+SNS => publisher/subscriber notification service that uses a push mechanism
+SQS => message queue service used for decoupling apps
+SWF => Simple workflow service is a workflow orchestration service, not a messaging service
+Step functions => AWS step functions is a serverless workflow orchestration service for modern apps
+
