@@ -42,8 +42,13 @@ AWS Trsuted Advisor => It is an online tool that provides you real time guidance
 Trusted advisor checks help optimize your AWS infra, improve security and performance, reduce your overall costs and monitor service limits.
 Inspector => Automated security service
 Systems Manager => It is used for managing EC2 instances such as installing patches and software
+Secrets Manager => It enables you to easily rotate, manage and retrieve database credentials, API keys and other secrets throughout their lifecycle
+Key management service => creating and managing encryption keys but does not use dedicated hardware
+Directory service => Enables your workloads and resources to use managed Active Directory in the AWS Cloud
 Budget => Allows you to set custom budgets to track your cost and usage for all use cases
 Organizations => organize multiple aws accounts
+Consolidated Billing => It is associated with AWS org and provides single bill across multiple member accounts
+Cognito => Security Assertion Markup Language (SAML) based app to log in to third-party business apps.
 
 CodeBuild => Compiling and testing code ahead of deployment
 Cost Explorer => View itemized costs but you cannot check resource utilization
@@ -80,7 +85,8 @@ SWF => Simple workflow service is a workflow orchestration service, not a messag
 Step functions => AWS step functions is a serverless workflow orchestration service for modern apps
 
 Databases
-Athena => It is used for querying data in S3 using SQL
+Athena => It is used for SQL querying data in S3 using SQL
+Kinesis => Collecting streaming data
 DocumentDB => DocumentDB is a NoSQL database that supports document data structures
 EC2 => Need full control over instance and database, third-party database engine
 RDS => Traditional relational database, oracle, postgreSQL, Microsoft SQL, MariaDB, MySQL, Data is well-formed and structured (Simplies database administration task)
@@ -102,5 +108,26 @@ Data pipeline => It is a web service that helps you reliably process and move da
 
 Direct Connect => It is a private network connection between an on-premises data center and AWS
 Transit Gateway => Optimizing the network topology of interconnected VPCs and on-premises networks
-Snowcone => Snowcone is used as an edge device for transferring data
+Storage Gateway => hybrid storage solution to connect on-premises workloads with the AWS cloud
+Snowcone => Snowcone is used as an edge device for transferring data but only holds 8 TB per device
+Datasync => It uses the internet to transfer data 
+Snowball => helps with slow and unreliable internet connection
+Glacier => Used for archiving data in the cloud
+CloudHSM => corporate, contractual and regulatory compliance requirements for data security by using dedicated hardware security module instances
+LightSail => It is a good service to use when you don't have good knowledge of AWS. However, you can't deploy a scalable node.js application into a VPC
 
+Auto scaling => Automatically adjust compute capacity as demand for app increases/decreases
+Load balancing => Ensure connections are distributed across multiple instances
+Fault tolerance => Failure of any single component does not affect the app
+High availability => ensures maximum uptime for your app by designing the system to recover from failure
+
+Virtual Private Network VPN => Establish a secure network connection between on-premises betwork and AWS
+Virtual Private Cloud => virtual network in cloud
+Web application Firewall (WAF) => service used for protecting against common web exploits
+Mobile Hub => Service used for building, testing and monitoring mobile apps that make use of one of more AWS services
+ACL => Network ACLs are virtual firewalls which control access within a VPC, network ACLs exist on the subnet level
+GuardDuty => Threat detection service that continuously monitors your aws accounts and workloads for malicious activity 
+
+SageMaker => It is a machine learning service which allows to build, train and deploy ML models for any use case with fully managed infra
+EventBridge => It is a serverless event bus that makes it easier to build event-driven apps at scale using events generated from apps.
+Fargate => Serverless container service which can be used within automation workflows
