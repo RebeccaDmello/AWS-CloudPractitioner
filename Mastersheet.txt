@@ -1,4 +1,3 @@
-//Test 1
 Reserved Instances
 - Convertible => Enables you to exchange one or more convertible reserved instances with diff confi including family, OS and tenancy 
 - Zonal => Zonal RI apply to instance usage within a specific AZ within an AWS region
@@ -20,12 +19,13 @@ Speed and Agility
 Cost allocation tags => tag your resources by department or project and then view costs attributed to the resources
 AWS Trusted advisor => This service advises you on best practices for provisioning resources
 Consolidated billing => Consolidated billing will give you usage per account but not per project
-AWS Trsuted Advisor => It is an online tool that provides you real time guidance to help you provision your resources following AWS best practices.
-Trusted advisor checks help optimize your AWS infra, improve security and performance, reduce your overall costs and monitor service limits.
+
+
 Health Dashboard => Shows issues or upcoming events that may impact your resources. It does not notify of service limit breaches
 Amazon RDS => This is a managed SQL database and has nothing to do with service limits generally.
 AWS Cost Explorer => Cost Explorer is used for viewing costs and will not assist with service limits.
 Artifacts => security and compliance documents.
+Quick Start => architecture and deployment instr
 
 Usage
 IAM => Making programmatic calls to aws from aws apis
@@ -33,13 +33,25 @@ Management console => Logging into the aws management console with user name and
 Creating encrypted channels using HTTPS => Enabling encryption in transit for web servers
 
 CodeGuru => It is used to review code and provide intelligent recommendations for improvement
-Config => AWS Config is used for configuration compliance management
+Config => compliance management
 Cloud development kit (CDK) => Deploy infra on AWS using familiar programming languages
 CodeCommit => CodeCommit is a fully-managed source control service
 CloudWatch => Monitoring
 CloudTrail => It is used for auditing
+AWS Trsuted Advisor => It is an online tool that provides you real time guidance to help you provision your resources following AWS best practices.
+Trusted advisor checks help optimize your AWS infra, improve security and performance, reduce your overall costs and monitor service limits.
+Inspector => Automated security service
+Systems Manager => It is used for managing EC2 instances such as installing patches and software
+Budget => Allows you to set custom budgets to track your cost and usage for all use cases
+Organizations => organize multiple aws accounts
+
+CodeBuild => Compiling and testing code ahead of deployment
+Cost Explorer => View itemized costs but you cannot check resource utilization
+Inspector => Automated security assessment service that help improve the security and compliance of apps deployed on AWS.
+CloudFront => Content delivery network improve customer experience by reducing latency, deploy infra from templates
 Elastic File System (EFS) => Used for storing data and is mounted by EC2 instances
-Inspector => Inspector is an automated security assessment service that help improve the security and compliance of app deployed on AWS
+Inspector => Inspector is an automated security assessment service that help improve the security and compliance of app deployed on AWS.
+EC2 auto scaling => It launches and terminates instances and it does not reduce latency for global users.
 
 Scheduled scaling => Allows to scale schedule according to predictable load changes
 Predictive scaling => It uses daily and weekly trends to determine when to scale.
@@ -50,7 +62,7 @@ Examples of pillar of the AWS Well-Archi framework
 - Reliability => RDS multi-AZ deployment
 - Performance efficiency =>EBS provisioned IOPS volume
 - Security => WebACL to a cloudFront distribution
-- Operational excellence => Use CloudFormation to deploy infra
+- Operational excellence => Use CloudFormation to deploy infra (anticipate failure, perform operations as code)
 
 AWS Web Application Firewall (WAF) => Protecting a website that is hosted outside of AWS
 EC2 security grps => Security groups can only be attached to EC2 instances
@@ -60,6 +72,7 @@ CodeDeploy => Deploying code from a repository and actually installing the app
 Software Development Kit => Integrate features of aws services directly into the app
 Command Line Interface (CLI) => It is used for running commands.
 CodePipeline => Automating the code release lifecycle
+AWS DataSync => It is used for replication and migrating data between storage systems and AWS
 
 SNS => publisher/subscriber notification service that uses a push mechanism
 SQS => message queue service used for decoupling apps
@@ -67,9 +80,27 @@ SWF => Simple workflow service is a workflow orchestration service, not a messag
 Step functions => AWS step functions is a serverless workflow orchestration service for modern apps
 
 Databases
+Athena => It is used for querying data in S3 using SQL
+DocumentDB => DocumentDB is a NoSQL database that supports document data structures
 EC2 => Need full control over instance and database, third-party database engine
 RDS => Traditional relational database, oracle, postgreSQL, Microsoft SQL, MariaDB, MySQL, Data is well-formed and structured (Simplies database administration task)
 DynamoDB => NoSQL database, in-memory performance, high I/O needs, Dynamic scaling
 Redshift => Data warehouse for analytics
-ElastiCache => Fast temporary storage for small amounts of data, in-memory database, caching
+ElastiCache => Fast temporary storage for small amounts of data, in-memory database, caching. It is a database caching service, it is not used to cache websites
 EMR => Analytics workloads using Hadoop framework
+AMI => preconfigured amazon elastic compute instance, provides into required to launch an instance including mapping of EBS volumes
+EFS => Elastic File system can be mounted to store data
+EBS => Elastic block store is block-based storage for EC2, root storage volumes for amazon EC2 instances
+EC2 systems manager => AWS systems manager gives you visibility and control of your infra on AWS
+AppStream 2.0 => Fully managed non-persistent app and desktop streaming service
+S3 => It is a service that is accessed via a REST API
+Amazon Macie => Discover and protect sensitive data that is stored in S3 buckets
+GuardDuty => Threat detection service to continuously monitor malicious activities and unauthorized behavior to protect aws accounts, workloads and data stores
+Policy generator => Tool to create policies that control access to aws products and resources
+Detective => Automatically processes terabytes of events data records about IP traffic, management operations and malicious/unauthorized activity
+Data pipeline => It is a web service that helps you reliably process and move data between different compute and storage services.
+
+Direct Connect => It is a private network connection between an on-premises data center and AWS
+Transit Gateway => Optimizing the network topology of interconnected VPCs and on-premises networks
+Snowcone => Snowcone is used as an edge device for transferring data
+
