@@ -52,7 +52,7 @@ Cognito => Security Assertion Markup Language (SAML) based app to log in to thir
 
 CodeBuild => Compiling and testing code ahead of deployment
 Cost Explorer => View itemized costs but you cannot check resource utilization
-Inspector => Automated security assessment service that help improve the security and compliance of apps deployed on AWS.
+Inspector => Automated security assessment service that help improve the security and compliance of apps deployed on AWS, identify unintended network access to EC2 instances and vulnerabilities. 
 CloudFront => Content delivery network improve customer experience by reducing latency, deploy infra from templates
 Elastic File System (EFS) => Used for storing data and is mounted by EC2 instances
 Inspector => Inspector is an automated security assessment service that help improve the security and compliance of app deployed on AWS.
