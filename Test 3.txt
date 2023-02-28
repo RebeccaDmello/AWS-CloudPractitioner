@@ -1,0 +1,97 @@
+1. AWS support plan with archi, operational reviews, as well as 24/7 access to cloud support engineer through email, online char
+=> Enterprise
+2. Tech enables compute capacity => Auto scaling
+3. Adv of AWS cloud computing? Trade fixed expenses for variable expenses
+4. Benefits of reserved instances? Reduced cost, reserved capacity
+5. Adv if AWS Cloud? High economies of scale, launch globally in min
+6. Edge locations? AWS Shield, Amazon CloudFront
+7. Connect on-premises data center to AWS cloud => AWS Direct Connect
+8. A company requires a single service which can manage their backup and restore requirements, data lakes and archives all in one place?
+=> Amazon Simple Storage Service S3
+9. Org migrated several servers into AWS, they are unsure as to what they must idrectly manage themselves.
+=> Cost of app software licenses
+10. Restrict individual API actions that users and roles in each member account can access?
+=> AWS Organizations
+11. Org track resource inventory and confi history for the purpose of security and regulatory compliance?
+=> Configure AWS config with the resource types
+12. IAM entity is associated with an access key id and secret access kye? IAM user
+13. Enable intelligent threat protection and continuos monitore across all its accounts => GuardDuty
+14. A company needs a IAM policy for granting permissions to users but need to add some permissions.
+=> Create a custom IAM policy
+15. AWS tool for automation=> CloudFormation, Elastic Beanstalk
+16. Logging into the app through a social identity provider is a must requirement
+=> Amazon Cognito
+17. Decouples app components so that they can run independently => Simple Queue Service (Amazon SQS)
+18. Invoke an AWS step function workflow each time an EC2 instance state changes => Amazon EventBridge
+19. Establish cCost effectiveness is the key to running the workload properly in the cloud 
+=> Rightsize all the EC2 instances that are used in the deployment
+20. Connectivity across multiple AWS regions using VPCs => AWS Transit Gateway
+21. Gain greater discounts, which services can be reserved?
+=> Amazon DynamoDB, Redshift
+22. Adv of AWS 
+=> 1. User van stop guessing about resource capacity 2. Users can stop spending money on maintenance of data centers
+23. A company has a mission critical linux-based app. The app must run every monday from 6am to 10 pm. as the app is critical, it cannot be interrupted. best for cost-effectively?
+=> On-Demand Capacity reservation with savings plan
+24. Architectural benefit of moving to cloud? 
+=> Elasticity
+25. on-demand downloads of AWS security and compliance reports => AWS artifact
+26. A quick way to determine if any EC2 instances have ports that allow unrestricted access?
+=> AWS Trusted Advisor
+27. Track activity of users on AWS => CloudTrail
+28. Infra automation tools => OpsWorks, CloudFormation
+29. Estimate the cost of workloads/forecast workload costs=> AWS Pricing Calculator
+30. Service used to create multiple accounts => AWS Organizations
+31. Seperate costs for storage, EC2, S3 and other services by department?
+=> Add department-specific tags to each resource
+32. Capture info about inbound and outbound IP traffic on network interfaces in a VPC?
+=> VPC Flow logs
+33. Tool used to receive volume discounts across multiple AWS accounts?
+=> AWS Organizations
+34. A database that supports reads with a latency of under a millisecond for critical apps?
+=> Amazon ElastiCache
+35. EC2 instance running the Amazon Linux 2 AMI is billed in what increment?
+=> Per second
+36. Archi ability to withstand failure with minimal downtime demonstrates which benefit?
+=> High availability
+37. EC2 auto scaling help with resiliency?
+=> By launching and terminating instances as needed
+38. AWS global infra offer high availability and fault tolerance to customers?
+=> AWS infra consists of isolated AWS regions with independent AZ that are connected with low latency networking and redundant power supplies.
+39. Benefit of Enterprise support plan? Included Technical Account Manager
+40. Each BU billing info is viewed seperately
+=> Tag each BU's resources, then filter by unit in Cost Explorer
+41. View operational data from multiple AWS service through Unified user interface and automate operational tasks?
+=> AWS Systems Manager
+42. AWS global infra consists of which component?
+=> AWS Regions
+43. Pillar, Design principle of defining workloads, apps, IaC?
+=> Operational excellence
+44. Authentication method used to authenticate programmatic calls to AWS services? => Access keys
+45. Identify and search for externally shared AWS resources?
+=> AWS IAM Access analyzer
+46. Service to cost-effectively move exabytes of data into AWS?
+=> AWS snowmobile
+47. CloudFront deliver content to end users with low latency using global infra?
+=> Edge locations
+48. Which EC2 pricing model is the most cost-effective for always-up, right-sized database server running a project that last 1 year?
+=> Standard reserved instances
+49. IAM entity used for assigning permissions to multiple users?
+=> IAM Group
+50. Ability to scale up and down quickly => Elasticity
+51. Rekognition => Can be used to identify objects in an image
+52. Benefit of moving an on-premises database to amazon RDS?
+=> There is no need to manage OS
+53. Block suspicious IP address from connecting to EC2
+=> Block the IP on the inbound rule of a network ACL
+54. IAM entity for assigning permissions to AWS services?
+=> IAM Role
+55. Which service or VPC component allows inbound traffic from the internet to access a VPC?
+=> Internet gateway
+56. A manager is planning to migrate apps to AWS cloud and needs to obtain compliance reports
+=> AWS Artifact
+57. Threat detection and monitoring for malicious or unauthorized behavior?
+=> GuardDuty
+58. Deliver static content from S3 to users from around the world.
+=> CloudFront
+59. Security Assertion Markup Language (SAML) based app to log in to third-party business app
+=> Amzon Cognito

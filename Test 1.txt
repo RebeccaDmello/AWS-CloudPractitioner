@@ -1,0 +1,105 @@
+1. Patch OS => EC2
+2. Migrate monolithic app to microservice arch => Implement loosely coupled services
+3. Tool to assist with viewing/managing AWS costs and usage => Cost Explorer
+4. Use reserved instances to get discounted pricing for EC2 => Convertible reserved instances
+5. Value proposition for AWS => It is not necessary to enter into long term contracts
+6. pre-configured amazon EC2 instance => Amazon Machine Image (AMI)
+7. Run a batch job on EC2 instance and it takes 6 hrs to complete. Workload is expected to double in volume each month with a proportional increase in processing time
+=> Run the batch workload in parallel across multiple EC2 instances
+8. A company is launching a new website which is expected to have highly variable levels of traffic. The website will run on EC2 and must be highly available
+=> Create an EC2auto scaling group and configure an Elastic Load Balancer
+9. What adv does a database admin obtain by using the Amazon RDS?
+=> RDS simplifies relational database administration tasks
+10. Protecting a website that is hosted outside of AWS?
+=> AWS Web Application Firewall (WAF)
+11. An individual IAM user must be granted access to an S3 bucket using a bucket policy. which element in the S3 bucket policy should be updated to define the user account for which access will be granted?
+=> Principal
+12.New user to depploy popular tech based on AWS best practices, including archi and deployment instru?
+=> Quickstarts
+13. Improve the operation of workloads?
+=> Loose coupling, Remove single point of failure
+14. Anticipate an increase in app traffic at a future date and time when a sale event occurs
+=> Configure a scheduled scaling policy
+15. Deploy a MySQL database on AWS. The database must easily scale and have automatic backup enabled?
+=> Aurora
+16. Launch 3 EC2 instances behind a single Elastic Load Balancer.
+=> Launch the instances across multiple AZ in a single AWS region
+17. A customer needs to determine Total cost of ownership (TCO) for a workload that require physical isolation. Which hosting model should be accounted for?
+=> Dedicated hosts
+18. Deploy an app on aws, secure it with?
+=> 1. encryption for app data at rest 2. limit access privileges according to the principal of least privilege
+19. AWS are able to continually reduce their pricing deue to
+=> Economies of scale
+20. Compute service? Batch, Elastic Beanstalk
+21. task using Cost management tool?
+=> 1. Auto terminate aws resources if budget thresholds are exceeded 2. create budget and receive notifications if current or forecasted usage exceeds the budgets
+22. Underutilized compute resources on-premises
+=> Elasticity
+23. Protect DDos => Configure a firewall in front of resources
+24. Shared responsibility model, respo of AWS?
+=> Updating the firmware on the underlying EC2 hosts
+25. Move number of legacy app to cloud
+=> Rehost the app on EC2 instances that are right sized
+26. Valid benefits of using the AWS cloud?
+=> a. Fast provisioning of IT resources b. Ability to go global quickly
+27. Laucnh ElastiCache cluster?
+=> cloudformation, management console
+28. Sole responsibility of AWS?
+=> Availability zone managemnt
+29. Best practice for managing AWS IAM access keys?
+=> Customers should rotate access keys regularly
+30. A User needs to identify underutilized amazon EC2 instances to reduce costs
+=> Trusted Advisor
+31. deploy on EC2 low-latency on-premises data center. Extend existing VPC to on-premises data center?
+=> AWS Outputs
+32. Deploy a new web app on AWS region that will be used by users globally? lowering latency and improve transfer speed?
+=> cloudfront, global accelerator
+33. Monitor EC2 instances CPU and network utilization
+=> CloudWatch
+34. principle to align with operational excellence pillar of AWS well-archi framework
+=> Perform operations as code, Anticipate failure
+35. Optimize performance for AWS services?
+=> AWS Trusted Advisor
+36. AWS Identity and access manegemnt access keys used for?
+=> Making programmatic calls to AWS from AWS APIs
+37. Data stored on S3 service => virtually unlimited
+38. Point-in-time recovery (PITR) for DynamoDB table
+=> Customer is responsible for configuration and AWS is responsible for performing backups
+39. Categorize and track AWS costs by project? Cost allocation tags
+40. concept of agility in relation to cloud computing?
+=> Ability to experiment quickly, the speed at which AWS resources can be created
+41. discover and protect sensitive data in S3=> Macie
+42.  deploy relation database on AWS. IT department performs database administration=> Amazon EC2
+43. Running apps in cloud, common tasks for AWS manage?
+=> Patching database software, taking a backup of a database
+44. Gather info about activity in aws => CloudWatch and CloudTrail
+46. Deploy a relational database on RDS instead of EC2 => Software patching, automated backups
+47. multiple aws acct and using consolidated billing
+=> 1. They may benefit from lower unit pricing for aggregated usage 2. They will receieve one bill for the accounts in the org
+48. Service to provide a managed software version control system?
+=> AWS CodeCommit
+49. Service to improve customer exp by reducing latency => CloudFront
+50. deploy infra using familiar programming lang => Cloud Deve Kit (AWS CDK)
+51. credentials for programmatic acess to resouces using CLI/API? Access keys
+52. VPC can include multiple: Availability zones
+53. A company is planning to deploy an app using relational database on AWS. The app layer requires access to the database instance OS to run scripts
+=> Amazon EC2
+54. Provide root storage volumes for EC2 instances? Amazon Elastic Block Store EBS (EBS)
+55. Publish messgae to thousands of subscribers simultaneously using push mechanism => SNS
+56. PostgreSQL database running on EC2 instance. automatic recovery during failure
+=> Migrate the database to RDS and enable multi-AZ feature
+57. Uses EC2 instances to run app dedicated to diff department. Break out the costs of these apps and allocate to releveant dep.
+=> Create tags by department on the instances and then run a cost allocation report
+58. Integrate features directly into the app? AWS Software Development Kit
+59. Provide access to AWS resources for their employees. Security practices?
+=> 1. Enable multi-factor authentication for users 2. Create IAM policies based on least privilege principles
+60. Help a user determine if they need to request an EC2 service limit increase?
+=> AWS Trusted Advisor
+61. AWS cloud increase the speed and agility of execution for customers?
+=> Fast provisioning of resources, scalable compute capacity
+62. AWS artifact => Gain access to secirty and compliance documents
+63. workload must run on specific, physical server=> dedicated hosts
+64. deployment for reliability pillar of the AWS Well-architected framework?
+=> RDS multi-AZ deployment
+65. Task for root user?
+=> Changing the account name, Changing AWS support plans

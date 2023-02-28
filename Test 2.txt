@@ -1,0 +1,107 @@
+1.  migrate VM to cloud=> IaaS
+2. Use of TCO total cost of ownership => Estimate savings when comparing the AWS cloud to an on-premises env
+3. Cost to be included into TCO 
+=> 1. Network infra in the data center 2. Physical compute hardware
+4. Services that offer compute capabilities=> ECS, Lambda
+7. dashboard for BI.=> Quicksight
+8. S3 use cases => 1. media hosting 2. Host a static website
+9. EC2 tool acts as a virtual firewall to control inbound and outbound traffic to an EC2 instance?
+=> Security group
+10. Compute capacity to adjust as demand increases/decreases?
+=> Auto scaling
+11. Automate config management using Puppet? AWS OpsWorks
+12. Service to run Docker containers? Amazon ECS
+13. service to receive a single monthly AWS bill when using multiple AWS accounts?
+=> Consolidated billing
+14. Shared responsibility model, security-related task is the responsibility of the customer?
+=> Maintaining server-size encryption
+=> Updating the guest OS on Amazon EC2 instances
+=> Firewall configuration
+=> Implementing IAM password policies
+=> Installing patches on windows OS
+15. AWS responsibility under SR model?
+=> Securing servers and racks at aws data centers, maintaining firewall confi at the hardware level, maintaining physical net confi
+=> Provide physical security for AZ, Patch the OS of amazon S3
+=> Updating EC2 host firmware
+=> Scanning AWS service endpoints for vulnerabilities, Encrypting traffic on AWS backbone between global and regional AWS facilities
+=> AWS are responsible for the security of regions and AZ
+=> Patching OS on RDS instances, Securing Virtualization layer
+=> Installing firmware updates on host servers
+15. Process vast amount of data using hosted Hadoop framework? => EMR
+16. High dynamic usage patterns. which charact of AWS cloud make it clost-effective?
+=> payasyougopricing, elasticity
+17. security principles within AWS well-archi framework?
+=>1. Protect data in transit and at rest
+2. Monitor, alert and audit actions and changes to AWS resources
+18. Best practices for AWS indentity and access management Service
+=> 1. Use groups to assign permissions to IAM users, 2. Create individual IAM users
+19. AWS hybrid storage service enables a user's on-premises app to seamlessly use AWS cloud storage? 
+=> AWS Storage Gateway
+20. Underutilized Amazon EC2 instance and reduce their costs? AWS Trusted advisor
+21. Consistent and dedicated connection between AWS resources and on-premises systen
+=> Direct connect
+22. Configure custom cost and usage limits and enable alert for exceeded thresholds?
+=> AWS Budget
+23. Benefit of cloud? Increase agility, Capital expenses are replaced with variable expenses
+24. Dashboard to display relevant and timely into to help manage events in progress and provide proactive notifications for scheduled acti
+=> AWS Personal Health Dashboard
+25. Configure AWS CLI pro programmatic access to AWS service. Credential components?
+=> A secret access key, an access key id
+26. EC2 pricing model to avoid if workload can't accept interruption if capacity becomes temporarily unavailable?
+=> Spot instances
+27. Load data from S3, transfor it and move to another desti=> GLUE
+28. Take adv of tiering pricing across multiple BU? AWS Org consolidated billing
+29. Identify unrestricted access to res  by security grps? Trsuted Advisor
+30. Consolidated Billing? 
+=> You receive a single bill for multiple accounts, You can combine usage and share volume pricing discounts
+31. Services protected from DDoS? AWS Shield
+32. Enable multi-factor authentication?
+=> Acquire MFA compatible device, Active MFA device in the IAM console or by using AWS CLI
+33. Function of Amazon EC2 auto scaling?
+=> Scales the number of EC2 instances in or out automatically, based on demand
+34. Move app dev to cloud?
+=> AWS makes it easy to implement high availability, AWS can accommodate large changes in app demand
+35. Cloud arch design principle supported by workloads across multile AZ
+=> Design for failure
+36. Deploy an app on multiple EC2 instances to ensure that a power failure does not cause an app outage?
+=> Launch the EC2 instances into different AZ
+37. Continuously monitor company's AWS account. Any changes in archi, member must be contacted?
+=> AWS Config
+38. Adv for a company running workloads in the AWS cloud Vs on-premises?
+=> Less staff time is required to launch new workloads, Incaresed productivity for app dev teams
+39. Describe AZ in AWS cloud? One or more physical data centers
+40. IP addresses that are owned by AWS are being used to attempt to flood ports on company's systems
+=> AWS Trust and safety team
+41. Re-architecting a monolithic app
+=> 1. Implement loose coupling 2. Design for scalability
+42. Meet corporate, contractual, regulatory compliance requirements for data security by using dedicated hardware appliances
+=> AWS CloudHSM
+43. Org gain access to compliance reports natively through the AWS console
+=> AWS Artifact
+44. Limited knowledge of AWS service but wants to quickly deploy a scalable Node.js app in an Amazon VPC
+=> AWS Elastic Beanstalk
+45. Allow app on EC2 to securely store data in S3 bucket without long-term credentials?
+=> AWS IAM role
+46. Service to perform data extract, transform and load (ETL) => AWS Glue
+47. What should be encsured when designing a highly available archi => The failure of a single component should not affect the app
+48. Automated security assessment report to identify unintended network access to EC2 instance and vulnerabilities
+=> Amazon Inspector
+49. Establish a secure network connection between on-premises network and AWS?
+=> Virtual private network
+50. Moving its on-premises NoSQL database into the AWS cloud.Replace existing database?
+Amazon DynamoDB
+51. Improve security of access to AWS management console?
+=> Strong password policies, AWS Multi-factor authentication
+52. Identify a specific user who terminated an Amazon RDS DB instance?
+=> AWS CloudTrail
+53. Service control policy => AWS Organizations
+54. Global user base and wants to decrease latency=> Cloudfront, global accelerator
+55. Slow and unreliable internet connection but need to transfer data of 70 TB => Snowball
+56. AWS snowball edge natively support? => Amazon EC2
+57. eComm company plans to use the AWS cloud to quickly deliver new funct in an iterative manner=> Agility
+58. Need to use third-party software for its workload=> Marketplace
+59. Replace upfront fixed expenses with variable expenses => Pay-as-you-go pricing
+60. Send both text and email messages from distributed apps? Amazon SNS
+61. Optimize Amazon EC2 costs?
+=> 1. Implement auto scaling groups to add and remove instances based on demand
+2. Purchase amazon EC2 reserved instances

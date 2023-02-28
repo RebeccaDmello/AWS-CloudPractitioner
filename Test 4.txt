@@ -1,0 +1,99 @@
+1. What is true in relation to data stored within an AWS Region?
+=> Data is not replicated outside of a region unless you configure it
+2. Create alerts when the actual or forecasted cost of AWS services exceed a certain threshold?
+=> AWS Budgets
+3. Significant cost savings for their non-interruptible worloads on AWS.
+=> Reserved Instances
+4.A company is considering migrating from on-premises to the AWS cloud. in order to handle the workload efficiently, the IT team needs to offload this heavy lifting as much as possible. What shoukd the IT team do to accomplish this goal?
+=> Use AWS managed services to provision, run and support the company infra
+5. Private, encrypted channel of communication between its on-premises data center and a VPC in the AWS cloud
+=> AWS PrivateLink
+6. A company to have access to scalable, highly reliable and fully managed file storage that runs on the Server message block protocol
+=> Amazon FSx for windows File server
+7. Support AWS customers on an Enterprise support lan with account issues?
+=> AWS Concierge
+8. Adv of AWS Cloud?
+=> 1. AWS manages the maintenace of cloud infra, 2. AWS manages capacity planning for physical servers
+9. Which service can be added to a database to provide improved performance for some requests?
+=> Amazon ElastiCache
+10. Perform queries and to search, analyze logs interactively within an org
+=> Amazon CloudWatch Logs insights
+11. How can consolidated billing within AWS org help lower overall monthly expenses?
+=> By pooling usage across multiple accounts to achieve a pricing tier discount
+12. AWS service that lets you add user sign up, sign-in and access control to web and mobile apps?
+=> AWS Cognito
+13. Service used to assign a policy to a group
+=> AWS IAM
+14. Ability to horizontally scale EC2 instances based on demand is an ex of which concept?
+=> Elasticity
+15. Components that can be configured in the VPC section of the AWS console?
+=> Subnet and endpoints
+16. Whats does an org need to do to move to another AWS region?
+=> Just start deploying resources in the additional region
+17. What does an org need to do in IAM to enable user access to services being launched in new region?
+=> Nothing, IAM is global
+18. Services that can be used for asynchronous integration between app components?
+=> Step function, SQS
+19. What need to be included in a tital cost of ownership (TCO) analysis?
+=> 1. Facility equipment installation 2. Data center security costs
+20. AWS acceptable use policy for penetration testing allows?
+=> Customers to carry out security assessments or penetration tests against their AWS infra without prior approval for selected services
+21. Create a private hybrid cloud connection that avoids the internet?
+=> AWS Direct Connect
+22. Services used to manage Configuration versions?
+=> AWS Config
+23. S3 storage tier for data that is not often accessed but requires high availability?
+=> Amazon S3 standard-IA
+24. Service that offers managed DDoS Protection?
+=> AWS Shield
+25. Storage Gateway to backup data with popular backup software?
+=> Gateway Virtual TApe Library
+26. Improve performance for users around the world?
+=> Amazon CloudFront
+27. Service that cen be used to identify the user who stopped it?
+=> AWS CloudTrail
+28. Service that enables hybrid cloud storage between on-premises and AWS cloud?
+=> Storage Gateway
+29. Assigment to an IAM user?
+=> 1. A password for access to the management console 2. An access key ID and secret access key
+30. Quick and automated way to create and manage AWS accounts?
+=> AWS Organizations
+31. Archi best practice recommended by AWS?
+=> Design for failure
+32. Benefit of using fully managed services compared to deploying 3rd party software on EC2
+=> Reduced operational overhead
+33. Remote employees need access to managed Windows virtual desktops and apps over secure networks
+=> 1. Workspaces 2. AWS Site-to-site VPN
+34. AWS shared respon model is included in which pillar of AWS well-archi
+=> Security
+35. Elasticity => Automatically scaling resources based on demand
+36. Monitor AWS accouts continously for malicious activity and unauthorized behavior?
+=> GuardDuty
+37. Services that are delivered globally rather than regionally?
+=> Cloudfront, Route 53
+38. Two components of S3
+=> Objects and Buckets
+39. Company collect data about the configuration, usage and behavior of its on-premises data centers to assist in planning a migration
+=> AWS App discovery service
+40. feature of AWS IAM enables you to identify unnecessary permissions that have been assigned to users? Access advisor
+41. When storing passwords on AWS, what is MOST secure method?
+=> store password in AWS secret manager
+42. What fully managed AWS service allows users to bring their own ML algo?
+=> Amazon SageMaker
+43. AWS Business support customers have access to which of the foll?
+=> AWS Health API
+44. In AWS IAM, chara of users and grps?
+=> 1. A user can be a member of multiple grps 2. Grps can contain users only and cannot be nested
+45. Storage type can be mounted using NFS protocol to many EC2 instances
+=> Amazon EFS
+46. Service for billing alarm
+=> CloudWatch
+47. When performing a total cost of ownership TCO analysis between on-premises and the AWS cloud, which factors are only relevant to on-premises deployments?
+=> Hardware procurement teams, Facility operations costs
+48. Data warehouse. standard SQL queries must be supported by data warehouse
+=> AWS Redshift
+49. How can I deploy AWS cloud infra to multiple AWS regions quickly, automatically and reliably?
+=> create and use an AWS cloudFormation template
+50. Identify user or AWS aPI call that terminated the instances => CloudTrail
+51. EC2 pricing model should be used to comply with per-core software license requirements?
+=> Dedicated hosts
